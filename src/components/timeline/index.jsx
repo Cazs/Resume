@@ -36,6 +36,28 @@ class Timeline extends React.Component
             marginRight: 'auto'
           }}
         />
+
+        <div
+          style={{
+            width: '2px',
+            height: '70px',
+            borderRadius: '10px',
+            backgroundColor: 'lime',
+            marginLeft: 'auto',
+            marginRight: 'auto'
+          }}
+        />
+        
+        <div
+          style={{
+            width: '120px',
+            height: '120px',
+            borderRadius: '120px',
+            backgroundColor: 'lime',
+            marginLeft: 'auto',
+            marginRight: 'auto'
+          }}
+        />
       </div>
     );
   }
