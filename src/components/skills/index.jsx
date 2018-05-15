@@ -52,8 +52,8 @@ const devops_skills =
         level: 80
     },
     {
-        title: 'Kubernetes',
-        level: 30
+        title: 'NPM',
+        level: 70
     },
     {
         title: 'Jest',
@@ -62,10 +62,6 @@ const devops_skills =
     {
         title: 'JUnit',
         level: 50
-    },
-    {
-        title: 'NPM',
-        level: 70
     },
     {
         title: 'Yarn',
@@ -138,18 +134,21 @@ class Skills extends React.Component
     render()
     {
         return (
-        <div className="row" style={{width: '90%', margin: 'auto'}}>
-          <div className="col-lg-6">
-            <Skill skills_category='Programming Skills' skills={programming_skills}/>
-          </div>
-          <div className="col-lg-6">
-            <Skill skills_category='DevOps Skills' skills={devops_skills}/>
-          </div>
+            <div>
+                <h3 style={{textAlign: 'center'}}>My current progress in my skill-set</h3>
+                <div className="row" style={{width: '90%', margin: 'auto'}}>
+                    <div className="col-lg-6">
+                        <Skill skills_category='Programming Skills' skills={programming_skills}/>
+                    </div>
+                    <div className="col-lg-6">
+                        <Skill skills_category='DevOps Skills' skills={devops_skills}/>
+                    </div>
 
-          <div className="col-lg-6">
-            <Skill skills_category='Soft Skills' skills={soft_skills}/>
-          </div>
-        </div>);
+                    <div className="col-lg-6">
+                        <Skill skills_category='Soft Skills' skills={soft_skills}/>
+                    </div>
+                </div>
+            </div>);
     }
 }
 
