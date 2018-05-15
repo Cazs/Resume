@@ -4,7 +4,7 @@ import Transition from 'react-motion-ui-pack';
 import profile from './profile.jpg';
 
 const MENU_ANIMATE_TO_Y = 10;
-const MENU_Y_DEFAULT = -200;
+const MENU_Y_DEFAULT = -220;
 
 class Nav extends React.Component
 {
@@ -44,12 +44,46 @@ class Nav extends React.Component
           key='app-header'
           className="App-header"
           style={{
-            height: '300px'
+            top: '0px',
+            width: '100%',
+            position: 'fixed',
+            height: '300px',
+            boxShadow: '#000 0px 15px 30px'
           }}
         >
           <div className="row">
             <div className="col-lg-6">
-              <div style={{width: '70px', height: '70px', borderRadius: '70px', backgroundColor: '#343434', boxShadow: '#000 0px 0px 10px'}}/>
+              {/* <div style={{width: '70px', height: '70px', borderRadius: '70px', backgroundColor: '#343434', boxShadow: '#000 0px 0px 10px'}}/> */}
+              <button
+                className='btn btn-primary'
+                style={{
+                  marginTop: '-5px',
+                  width: '110px',
+                  height: '70px',
+                  // marginLeft: '-10px',
+                  // float: 'left',
+                  border: '1px solid #fff'
+                }}
+              >
+                Background
+              </button>
+            </div>
+
+            <div className="col-lg-6">
+              {/* <div style={{width: '70px', height: '70px', borderRadius: '70px', backgroundColor: '#343434', boxShadow: '#000 0px 0px 10px'}}/> */}
+              <button
+                className='btn btn-primary'
+                style={{
+                  marginTop: '-5px',
+                  width: '160px',
+                  height: '70px',
+                  // marginLeft: '-10px',
+                  // float: 'left',
+                  border: '1px solid #fff'
+                }}
+              >
+                Other Interests
+              </button>
             </div>
           </div>
           <div
@@ -60,6 +94,7 @@ class Nav extends React.Component
               style={{
                 // position: 'fixed',
                 // marginTop: (this.state.menu_y - 50 - 15) + 'px',
+                marginTop: '-2px',
                 width: '160px',
                 height: '70px',
                 marginLeft: '-10px',
@@ -77,6 +112,7 @@ class Nav extends React.Component
               src={profile}
               style={{
                 // marginTop: (this.state.menu_y - 50 - 7) + 'px',
+                marginTop: '15px',
                 width: '100px',
                 height: '100px',
                 borderRadius: '80px',
@@ -88,6 +124,7 @@ class Nav extends React.Component
               className='btn btn-success'
               style={{
                 // marginTop: (this.state.menu_y - 50 - 15) + 'px',
+                marginTop: '-2px',
                 width: '160px',
                 height: '70px',
                 marginRight: '-10px',

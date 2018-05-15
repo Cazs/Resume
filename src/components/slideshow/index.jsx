@@ -49,17 +49,18 @@ class Slideshow extends Component
       <div>
         <div
           style={{
-            marginTop: '-200px',
+            marginTop: '0px',
             width: '100%',
             height: '650px',
             background: 'url('+ this.props.images[this.state.index] + ')',
+            borderBottom: '1px solid #fff',
             zIndex: '1'
           }}
         />
         <div
           style={{
             position: 'absolute',
-            top: '400px',
+            top: '340px',
             left: '10px',
             width: '80px',
             height: '80px',
@@ -75,7 +76,7 @@ class Slideshow extends Component
         <div
           style={{
             position: 'absolute',
-            top: '400px',
+            top: '340px',
             width: '80px',
             height: '80px',
             right: '10px',
@@ -88,6 +89,36 @@ class Slideshow extends Component
             zIndex: '1'
           }}
         />
+        <div style={{marginTop: '-50px'}}>
+          <div
+            style={{
+              display: 'inline-block',
+              height: '25px',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+              marginBottom: '50px',
+              borderRadius: '80px',
+              border: '1px dashed #ff7200',
+              backgroundColor: 'rgba(0,0,0,.5)'
+            }}
+          >
+            <div style={{display: 'flex'}}>
+              {this.props.images.map((img_path, index) =>
+                (<div
+                  style={{
+                    width: '17px',
+                    height: '17px',
+                    marginLeft: '2px',
+                    marginRight: '2px',
+                    marginTop: '3px',
+                    borderRadius: '20px',
+                    backgroundColor: index === this.state.index ? '#ff7200' : '#fff'
+                  }}
+                />)
+              )}
+            </div>
+          </div>
+        </div>
       </div>);
   }
 }
