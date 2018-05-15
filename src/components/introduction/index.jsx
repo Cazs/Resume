@@ -15,16 +15,16 @@ class Introduction extends React.Component
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>Professionally Casper is a full-stack software developer proficient in Java, C#, EcmaScript 6, HTML5 and CSS3.</p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>He also has past experience with pHp, ASP.NET, VB.NET, Microsoft Azure, Amazon AWS, Digital Ocean VPS, SQL, JavaFX, C++ and Borland Delphi (Pascal).</p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
-                When he's not coding, he's either reading tech blogs and articles, watching tech vlogs on YouTube, drawing,
-                gaming or just hanging out with some friends.
-                He's constantly pushing his creative limits by always creating new apps using new tools all the time 
-                in order maintain a solid dev stack.
+                    When he's not coding, he's either reading tech blogs and articles, watching tech vlogs on YouTube, drawing,
+                    gaming or just hanging out with some friends.
+                    He's constantly pushing his creative limits by always creating new apps using new tools all the time 
+                    in order maintain a solid dev stack.
                 </p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>Lives on the bleeding edge.</p>
                 <br />
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>My day-to-day stack includes:</p>
                 <div style={{width: '25%', margin: 'auto', color: '#fff'}}>
-                <ul>
+                <ul style={{listStyle: 'none'}}>
                     <li>
                     <a
                         style={{textDecoration: 'underline', color: '#fff'}}

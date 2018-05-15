@@ -1,12 +1,12 @@
 import React from 'react';
 
-class Work extends React.Component
+class Education extends React.Component
 {
   render()
   {
     return (
-      <div style={{marginBottom: '250px'}}>
-        <h3 style={{textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff'}}>Work Experience</h3>
+      <div style={{marginBottom: '150px'}}>
+        <h3 style={{textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff'}}>Education</h3>
         <div
           style={{
             width: '60px',
@@ -18,7 +18,7 @@ class Work extends React.Component
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>2014</p>
+          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>2009</p>
         </div>
         <div style={{
           position: 'absolute',
@@ -41,12 +41,10 @@ class Work extends React.Component
               padding: '10px'
               // border: '1px solid #343434'
             }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Patrish Mobile Nails ( 2014 ­- 2016)</p>
+            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Rand Park High School ( 20­09 - 2013)</p>
+            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Nation Senior Certificate</p>
             <p>
-              My role at PMN was to help uplift the company’s online presence by developing and maintaining a modern, responsive and SEO compliant web application.
-            </p>
-            <p>
-              For this project I initially used pHp with MySQL, and eventually rewrote the project in NodeJS.
+              This is where Casper would fall in love with the art of programming.
             </p>
           </div>
         </div>
@@ -71,7 +69,7 @@ class Work extends React.Component
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>2016</p>
+          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>2014</p>
         </div>
         <div style={{
           position: 'absolute',
@@ -86,7 +84,7 @@ class Work extends React.Component
           backgroundPosition: '0% 0%'
         }}>
           <div style={{
-              width: '87%',
+              width: '95%',
               // height: '85px',
               margin: '-10px 0px 0px 14%',
               borderRadius: '5px',
@@ -94,9 +92,10 @@ class Work extends React.Component
               padding: '10px'
               // border: '1px solid #343434'
             }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Omega Fire &amp; Security (2016 - present)</p>
+            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Univ. of Johannesburg (2014 - present)</p>
+            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>BSc Information Technology</p>
             <p>
-              My primary role at Omega was to develop an internal tool to help the company better manage various aspects of its business operations such as, human resource management, project management, quoting, invoicing, task management, time &amp; attendance as well as a policy/regulatory document ­management system - essentially a miniature ERP system.
+              Majoring in Computer Science &amp; Informatics and minoring in Mathematics (Calculus 1 &amp; Descrete 1), Business Management 1 and Information Management 1.
             </p>
           </div>
         </div>
@@ -127,4 +126,4 @@ class Work extends React.Component
   }
 }
 
-export default Work;
+export default Education;

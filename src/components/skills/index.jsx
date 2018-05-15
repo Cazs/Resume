@@ -135,7 +135,7 @@ class Skills extends React.Component
     {
         return (
             <div>
-                <h3 style={{textAlign: 'center'}}>My current progress in my skill-set</h3>
+                <h3 style={{textAlign: 'center', color: '#fff'}}>My current progress in my skill-set</h3>
                 <div className="row" style={{width: '90%', margin: 'auto'}}>
                     <div className="col-lg-6">
                         <Skill skills_category='Programming Skills' skills={programming_skills}/>

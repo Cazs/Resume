@@ -7,6 +7,7 @@ import Nav from './components/nav';
 import Slideshow from './components/slideshow';
 import Introduction from './components/introduction';
 import Skills from './components/skills';
+import Education from './components/education';
 import Work from './components/work';
 import Timeline from './components/timeline';
 
@@ -39,7 +40,8 @@ class App extends Component
         <Slideshow images={images} />
         <Introduction />
         <Skills />
-        <Work />
+        <Education />
+        <Work/>
         <Timeline />
       </div>
     );
