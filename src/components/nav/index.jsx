@@ -3,7 +3,8 @@ import Transition from 'react-motion-ui-pack';
 
 import profile from './profile.jpg';
 
-const MENU_ANIMATE_TO_Y = 100;
+const MENU_ANIMATE_TO_Y = 10;
+const MENU_Y_DEFAULT = -200;
 
 class Nav extends React.Component
 {
@@ -13,7 +14,7 @@ class Nav extends React.Component
 
     this.state =
     {
-      menu_y: 0
+      menu_y: MENU_Y_DEFAULT
     }
   }
 
@@ -25,10 +26,12 @@ class Nav extends React.Component
         enter={{
           // top: 80,
           translateY: this.state.menu_y
+          // height: this.state.menu_y
         }}
         leave={{
           // top: -70,
           translateY: this.state.menu_y
+          // height: this.state.menu_y
         }}
         ref={(el)=> this.menu_bar = el}
         style={{
@@ -40,35 +43,60 @@ class Nav extends React.Component
         <header
           key='app-header'
           className="App-header"
-          style={{zIndex: '100'}}
+          style={{
+            height: '300px'
+          }}
         >
-          <button
-            style={{
-              position: 'fixed',
-              top: '5px',
-              left: '2px',
-              marginTop: '0px',
-              width: '100px',
-              height: '80px'
-            }}
-            onClick={()=>
-            {
-              this.state.menu_y == MENU_ANIMATE_TO_Y ? this.setState({menu_y: 0}) : this.setState({menu_y: MENU_ANIMATE_TO_Y});
-            }}
+          <div className="row">
+            <div className="col-lg-6">
+              <div style={{width: '70px', height: '70px', borderRadius: '70px', backgroundColor: '#343434', boxShadow: '#000 0px 0px 10px'}}/>
+            </div>
+          </div>
+          <div
+            style={{marginTop: '140px'}}
           >
-            Menu
+            <button
+              className='btn btn-primary'
+              style={{
+                // position: 'fixed',
+                // marginTop: (this.state.menu_y - 50 - 15) + 'px',
+                width: '160px',
+                height: '70px',
+                marginLeft: '-10px',
+                float: 'left',
+                border: '1px solid #fff'
+              }}
+              onClick={()=>
+              {
+                this.state.menu_y == MENU_ANIMATE_TO_Y ? this.setState({menu_y: MENU_Y_DEFAULT}) : this.setState({menu_y: MENU_ANIMATE_TO_Y});
+              }}
+            >
+              Menu
+            </button>
+            <img
+              src={profile}
+              style={{
+                // marginTop: (this.state.menu_y - 50 - 7) + 'px',
+                width: '100px',
+                height: '100px',
+                borderRadius: '80px',
+                // top: '25px',
+                border: '2px solid #3c3c3c'
+              }}
+              alt="logo" />
+            <button
+              className='btn btn-success'
+              style={{
+                // marginTop: (this.state.menu_y - 50 - 15) + 'px',
+                width: '160px',
+                height: '70px',
+                marginRight: '-10px',
+                float: 'right',
+                border: '1px solid #fff'
+              }}>
+            Contact Me
           </button>
-          <img
-            src={profile}
-            style={{
-              marginTop: '10px',
-              width: '100px',
-              height: '100px',
-              borderRadius: '80px',
-              border: '2px solid #3e3e3e'
-            }}
-            alt="logo" />
-          <button style={{position: 'fixed', top: '5px', right: '2px', marginTop: '0px', width: '100px', height: '80px'}}>Contact Me</button>
+          </div>
         </header>
       </Transition>
     );

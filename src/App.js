@@ -33,7 +33,8 @@ class App extends Component
     return (
       <div className="App">
         <Nav />
-        <Slideshow images={images}/>
+        <Slideshow images={images} />
+        <h3 style={{textAlign: 'center'}}>Brief Background</h3>
         <Timeline />
       </div>
     );

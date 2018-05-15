@@ -1,4 +1,39 @@
-.App {
+/* Montserrat */
+@font-face
+{
+  font-family: 'Montserrat';
+  src:
+    local('Montserrat'),
+    url('http://localhost:3001/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* Source Serif Pro */
+@font-face {
+  font-family: 'Source Serif Pro';
+  src:
+    local('Source Serif Pro'),
+    url('http://localhost:3001/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* Lora */
+@font-face {
+  font-family: 'Lora';
+  src:
+    local('Lora'),
+    url('%PUBLIC_URL%/fonts/Lora/Lora-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+body
+{
+  background: linear-gradient(145deg,#56b4d3,#348f50);
+  font-family: 'Montserrat';
+}
+
+.App
+{
   text-align: center;
 }
 
@@ -7,18 +42,18 @@
   height: 80px;
 }
 
-.App-header, .App-header > *
+header
 {
-  z-index: 100;
+  background: linear-gradient(90deg,#56b4d3,#348f50);
+  border-bottom: 1px solid #fff;
 }
 
 .App-header
 {
   background-color: #222;
-  height: 50px;
+  /* height: 80px; */
   padding: 20px;
   color: white;
-  border: '2px solid lime';
   z-index: 100;
 }
 

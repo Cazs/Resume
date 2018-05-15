@@ -49,6 +49,7 @@ class Slideshow extends Component
       <div>
         <div
           style={{
+            marginTop: '-200px',
             width: '100%',
             height: '650px',
             background: 'url('+ this.props.images[this.state.index] + ')',
@@ -58,7 +59,7 @@ class Slideshow extends Component
         <div
           style={{
             position: 'absolute',
-            top: '300px',
+            top: '400px',
             left: '10px',
             width: '80px',
             height: '80px',
@@ -74,7 +75,7 @@ class Slideshow extends Component
         <div
           style={{
             position: 'absolute',
-            top: '300px',
+            top: '400px',
             width: '80px',
             height: '80px',
             right: '10px',
