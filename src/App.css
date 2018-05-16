@@ -1,3 +1,8 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+}
+
 /* Montserrat */
 @font-face
 {
@@ -29,7 +34,7 @@
 body
 {
   background: linear-gradient(145deg,#56b4d3,#348f50);
-  font-family: 'Montserrat';
+  /* font-family: 'Montserrat'; */
 }
 
 .App
