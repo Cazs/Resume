@@ -11,7 +11,8 @@ import Education from './components/education';
 import Work from './components/work';
 import Stack from './components/stack';
 import Projects from './components/projects';
-import Timeline from './components/timeline';
+import Footer from './components/footer';
+// import Timeline from './components/timeline';
 
 
 import './App.css';
@@ -46,7 +47,7 @@ class App extends Component
         <Work />
         <Stack />
         <Projects />
-        <Timeline />
+        <Footer />
       </div>
     );
   }
