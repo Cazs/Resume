@@ -10,15 +10,19 @@ class Introduction extends React.Component
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
                 Casper is a 22 year old tech junkie that grew up in Randburg, Johannesburg, South Africa.
                 </p>
-                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>I first learned to program a computer using Borland Delphi 7, 7 years ago (in 10th grade).</p>
-                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>So far I've developed apps for Android, Windows, Linux and MacOS and currently learning learning iOS.</p>
-                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>Professionally Casper is a full-stack software developer proficient in Java, C#, EcmaScript 6, HTML5 and CSS3.</p>
+                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>He first learned to program a computer using Borland Delphi 7, 7 years ago (in 10th grade).</p>
+                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>So far He's developed apps for Android, Windows, Linux and MacOS and currently learning learning iOS.</p>
+                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
+                    Professionally Casper is a full-stack software developer experienced in all stages of the Software Development 
+                    Life Cycle using the Agile methodology. He's proficient in Java, C#, EcmaScript 6, SQL, HTML5 and CSS3.
+                </p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>He also has past experience with pHp, ASP.NET, VB.NET, Microsoft Azure, Amazon AWS, Digital Ocean VPS, SQL, JavaFX, C++ and Borland Delphi (Pascal).</p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
                     When he's not coding, he's either reading tech blogs and articles, watching tech vlogs on YouTube, drawing,
                     gaming or just hanging out with some friends.
-                    He's constantly pushing his creative limits by always creating new apps using new tools all the time 
+                    He's constantly pushing his intellectual and creative limits by always creating new apps using new tools all the time 
                     in order maintain a solid dev stack.
+                    Casper 
                 </p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>Lives on the bleeding edge.</p>
                 <br />
