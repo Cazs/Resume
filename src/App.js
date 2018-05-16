@@ -10,6 +10,7 @@ import Skills from './components/skills';
 import Education from './components/education';
 import Work from './components/work';
 import Stack from './components/stack';
+import Projects from './components/projects';
 import Timeline from './components/timeline';
 
 
@@ -44,6 +45,7 @@ class App extends Component
         <Education />
         <Work />
         <Stack />
+        <Projects />
         <Timeline />
       </div>
     );
