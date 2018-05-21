@@ -19,9 +19,9 @@ import './App.css';
 
 const images =
 [
-    'http://casperweb.herokuapp.com:3001/aurora.jpg',
-    'http://casperweb.herokuapp.com:3001/galaxies.jpg',
-    'http://casperweb.herokuapp.com:3001/martin.jpg',
+    'http://casperweb.herokuapp.com/aurora.jpg',
+    'http://casperweb.herokuapp.com/galaxies.jpg',
+    'http://casperweb.herokuapp.com/martin.jpg',
 ];
 
 class App extends Component

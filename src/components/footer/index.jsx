@@ -6,7 +6,7 @@ const GithubLink = styled.a`
     width: 30px;
     height: 30px;
     margin: 100px auto 0px auto;
-    background: url(http://casperweb.herokuapp.com:3001/github-logo.svg);
+    background: url(http://casperweb.herokuapp.com/github-logo.svg);
     backgroundSize: contain
     &:hover
     {
@@ -20,7 +20,7 @@ const LinkedinLink = styled.a`
     width: 30px;
     height: 30px;
     margin: 100px auto 0px auto;
-    background: url(http://casperweb.herokuapp.com:3001/linkedin-logo.svg);
+    background: url(http://casperweb.herokuapp.com/linkedin-logo.svg);
     backgroundSize: contain
     &:hover
     {
