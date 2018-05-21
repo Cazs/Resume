@@ -9,7 +9,7 @@
   font-family: 'Montserrat';
   src:
     local('Montserrat'),
-    url('http://localhost:3001/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+    url('http://casperweb.herokuapp.com:3001/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
     font-weight: 300;
 }
 
@@ -18,7 +18,7 @@
   font-family: 'Source Serif Pro';
   src:
     local('Source Serif Pro'),
-    url('http://localhost:3001/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
+    url('http://casperweb.herokuapp.com:3001/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 

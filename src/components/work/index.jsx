@@ -27,7 +27,7 @@ class Work extends React.Component
           // top: '-20px',
           width: '350px',
           height: '100px',
-          background: 'url(http://localhost:3001/arrow-right-solid.svg)',
+          background: 'url(http://casperweb.herokuapp.com:3001/arrow-right-solid.svg)',
           // backgroundColor: 'red',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: '100% 0%'
@@ -80,7 +80,7 @@ class Work extends React.Component
           // top: '-20px',
           width: '350px',
           height: '100px',
-          background: 'url(http://localhost:3001/arrow-left-solid.svg)',
+          background: 'url(http://casperweb.herokuapp.com:3001/arrow-left-solid.svg)',
           // backgroundColor: 'red',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: '0% 0%'
