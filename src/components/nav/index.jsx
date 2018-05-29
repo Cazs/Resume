@@ -90,46 +90,26 @@ class Nav extends React.Component
             style={{marginTop: '140px'}}
           >
             <button
-              className='btn btn-primary'
+              className='btn btn-primary nav-btn'
               style={{
-                // position: 'fixed',
-                // marginTop: (this.state.menu_y - 50 - 15) + 'px',
-                marginTop: '-2px',
-                width: '160px',
-                height: '70px',
                 marginLeft: '-10px',
                 float: 'left',
-                border: '1px solid #fff'
               }}
               onClick={()=>
               {
                 this.state.menu_y == MENU_ANIMATE_TO_Y ? this.setState({menu_y: MENU_Y_DEFAULT}) : this.setState({menu_y: MENU_ANIMATE_TO_Y});
-              }}
-            >
+              }}>
               Menu
             </button>
             <img
               src={profile}
-              style={{
-                // marginTop: (this.state.menu_y - 50 - 7) + 'px',
-                marginTop: '15px',
-                width: '100px',
-                height: '100px',
-                borderRadius: '80px',
-                // top: '25px',
-                border: '2px solid #3c3c3c'
-              }}
+              className="nav-profile-image"
               alt="logo" />
             <button
-              className='btn btn-success'
+              className='btn btn-success nav-btn'
               style={{
-                // marginTop: (this.state.menu_y - 50 - 15) + 'px',
-                marginTop: '-2px',
-                width: '160px',
-                height: '70px',
                 marginRight: '-10px',
                 float: 'right',
-                border: '1px solid #fff'
               }}>
             Contact Me
           </button>

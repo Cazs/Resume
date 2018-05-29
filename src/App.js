@@ -43,8 +43,8 @@ class App extends Component
         <Slideshow images={images} />
         <Introduction />
         <Skills />
-        <Education />
         <Work />
+        <Education />
         <Stack />
         <Projects />
         <Footer />

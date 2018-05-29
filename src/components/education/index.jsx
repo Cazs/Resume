@@ -5,33 +5,22 @@ class Education extends React.Component
   render()
   {
     return (
-      <div style={{marginBottom: '150px'}}>
+      <div className="education-info-container">
         <h3 style={{textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff'}}>Education</h3>
         <div
           style={{
-            width: '60px',
-            height: '60px',
-            borderRadius: '60px',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50px',
             backgroundColor: '#ff7400',
             marginLeft: 'auto',
             marginRight: 'auto',
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>2009</p>
+          <p style={{fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder'}}>2009</p>
         </div>
-        <div style={{
-          position: 'absolute',
-          marginTop: '-58px',
-          left: '22.5%',
-          // top: '-20px',
-          width: '350px',
-          height: '100px',
-          background: 'url(http://casperweb.herokuapp.com/arrow-right-solid.svg)',
-          // backgroundColor: 'red',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: '100% 0%'
-        }}>
+        <div className='education-info-left'>
           <div style={{
               width: '86%',
               // height: '85px',
@@ -60,29 +49,18 @@ class Education extends React.Component
         />
         <div
           style={{
-            width: '60px',
-            height: '60px',
-            borderRadius: '60px',
+            width: '50px',
+            height: '50px',
+            borderRadius: '50px',
             backgroundColor: '#ff7400',
             marginLeft: 'auto',
             marginRight: 'auto',
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>2014</p>
+          <p style={{fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder'}}>2014</p>
         </div>
-        <div style={{
-          position: 'absolute',
-          marginTop: '-58px',
-          left: '52.5%',
-          // top: '-20px',
-          width: '350px',
-          height: '100px',
-          background: 'url(http://casperweb.herokuapp.com/arrow-left-solid.svg)',
-          // backgroundColor: 'red',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: '0% 0%'
-        }}>
+        <div className='education-info-right'>
           <div style={{
               width: '95%',
               // height: '85px',
