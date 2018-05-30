@@ -2,10 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const GithubLink = styled.a`
-    // display: inline;
     width: 30px;
     height: 30px;
-    margin: 100px auto 0px auto;
+    margin: 0px auto 0px auto;
     background: url(http://casperweb.herokuapp.com/github-logo.svg);
     backgroundSize: contain
     &:hover
@@ -16,10 +15,9 @@ const GithubLink = styled.a`
 `;
 
 const LinkedinLink = styled.a`
-    // display: inline;
     width: 30px;
     height: 30px;
-    margin: 100px auto 0px auto;
+    margin: 0px auto 0px auto;
     background: url(http://casperweb.herokuapp.com/linkedin-logo.svg);
     backgroundSize: contain
     &:hover
@@ -36,13 +34,13 @@ class Footer extends React.Component
         return (
             <div style={{
                 width: '100%',
-                height: '240px',
+                height: 'auto',
                 backgroundColor: '#56b4d3',
                 marginTop: '20px',
                 borderTop: '1px solid #fff'
             }}>
                 <p style={{width: '80%', textAlign: 'center', margin: '10px auto 0px auto', borderRadius: '10px', paddingTop: '10px', color: '#fff', backgroundColor: 'rgba(0,0,0,.4)'}}>
-                    At some point in the near future I'd like to work with Virtual Reality 🌋 and/or Augmented Reality systems, 🗺 use big data 🗄 (and neural nets? 🕸 ) to make the lives of people easier/happier 🌍 🙂 and maybe embedded systems, robots anyone? 🤖
+                    At some point in the near future I'd like to work with Virtual Reality 🌋 and/or Augmented Reality systems, 🗺 use big data 🗄 (and neural nets 🕸) to make the lives of people easier/happier 🌍 🙂 and maybe embedded systems, robots anyone? 🤖
                 </p>
                 <br/>
                 <p>👻</p>
