@@ -56,7 +56,7 @@ class Slideshow extends Component
             backgroundPosition: 'center'
           }}
         />
-        {/* Slider buttons */}
+        {/* Slider next/previous buttons */}
         <div
           className='slider-btn'
           style={{
@@ -113,5 +113,4 @@ class Slideshow extends Component
       </div>);
   }
 }
-
 export default Slideshow;

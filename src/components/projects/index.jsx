@@ -30,10 +30,10 @@ class Projects extends React.Component
                         <a href="https://casperweb.herokuapp.com/">My Resume website </a>
                     </div>
                     <div className='col-lg-6'>
-                        <a href="http://icebreak.azurewebsites.net/">My group's 3rd year webapp's server and parts of the mobile app.</a>
+                        <a href="http://icebreak.azurewebsites.net/">My group's 3rd year webapp's server and parts of the Android app.</a>
                     </div>
                     <div className='col-lg-6'>
-                        <p style={{color: '#000'}}>Also checkout some of my other projects on <a href="https://github.com/Cazs">GitHub</a></p>
+                        <p style={{color: '#000'}}>Also checkout some of my other projects on <a href="https://github.com/Cazs" target='_blank'>GitHub</a></p>
                     </div>
                 </div>
             </div>

@@ -106,7 +106,9 @@ class Nav extends React.Component
             <div
               style={{width: '100px', height: '100px', background: 'url('+profile+')', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
               className="nav-profile-image"
-               />
+            >
+              <a href='https://casperweb.herokuapp.com/'></a>
+            </div>
             <button
               className='btn btn-success nav-btn'
               style={{

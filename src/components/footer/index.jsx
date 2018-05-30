@@ -42,6 +42,7 @@ class Footer extends React.Component
                 <p style={{width: '80%', textAlign: 'center', margin: '10px auto 0px auto', borderRadius: '10px', paddingTop: '10px', color: '#fff', backgroundColor: 'rgba(0,0,0,.4)'}}>
                     At some point in the near future I'd like to work with Virtual Reality 🌋 and/or Augmented Reality systems, 🗺 use big data 🗄 (and neural nets 🕸) to make the lives of people easier/happier 🌍 🙂 and maybe embedded systems, robots anyone? 🤖
                 </p>
+                <p style={{color: '#fff', marginTop: '20px'}}>You can also find a printer friendly version of my CV <a href='http://casperweb.herokuapp.com/resume.html' target='_blank'>here</a></p>
                 <br/>
                 <p>👻</p>
                 <div style={{display: 'flex'}}>

@@ -73,9 +73,13 @@ class Work extends React.Component
               padding: '10px'
               // border: '1px solid #343434'
             }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Omega Fire &amp; Security (2016 - present)</p>
+            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>
+              Omega Fire &amp; Security (2016 - present)</p>
             <p>
-              My primary role at Omega was to develop an internal tool to help the company better manage various aspects of its business operations such as, human resource management, project management, quoting, invoicing, task management, time &amp; attendance as well as a policy/regulatory document ­management system - essentially a miniature ERP system.
+              My primary role at Omega was to develop an internal tool to help the company better manage various aspects 
+              of its business operations such as, human resource management, project management, quoting, invoicing, task 
+              management, time &amp; attendance as well as a policy/regulatory document ­management system - essentially a 
+              miniature ERP system.
             </p>
           </div>
         </div>
