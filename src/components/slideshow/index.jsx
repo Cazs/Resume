@@ -46,49 +46,35 @@ class Slideshow extends Component
   render()
   {
     return (
-      <div>
+      <div className='slideshow-container'>
         <div
+          className='slideshow'
           style={{
-            marginTop: '0px',
-            width: '100%',
-            height: '650px',
-            background: 'url('+ this.props.images[this.state.index] + ')',
-            borderBottom: '1px solid #fff',
-            zIndex: '1'
+            background: 'url('+ this.props.images[this.state.index] + ')'
           }}
         />
+        {/* Slider buttons */}
         <div
+          className='slider-btn'
           style={{
-            position: 'absolute',
-            top: '340px',
             left: '10px',
-            width: '80px',
-            height: '80px',
-            borderRadius: '80px',
-            border: '2px dashed #ff7200',
             background: 'url(http://casperweb.herokuapp.com/slider-left-arrow.svg)',
-            backgroundSize: '70% 70%',
-            backgroundPosition: '7px 10px',
             backgroundRepeat: 'no-repeat',
-            zIndex: '1'
+            backgroundSize: '70% 70%',
+            backgroundPosition: '15px 10px'
           }}
         />
         <div
+          className='slider-btn'
           style={{
-            position: 'absolute',
-            top: '340px',
-            width: '80px',
-            height: '80px',
             right: '10px',
-            borderRadius: '80px',
-            border: '2px dashed #ff7200',
             background: 'url(http://casperweb.herokuapp.com/slider-right-arrow.svg)',
-            backgroundSize: '70% 70%',
-            backgroundPosition: '15px 10px',
             backgroundRepeat: 'no-repeat',
-            zIndex: '1'
+            backgroundSize: '70% 70%',
+            backgroundPosition: '15px 10px'
           }}
         />
+        {/* Slider nav */}
         <div style={{marginTop: '-50px'}}>
           <div
             style={{

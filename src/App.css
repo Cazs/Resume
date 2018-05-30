@@ -156,6 +156,31 @@ header
   border-radius: 5px;
 }
 
+.slideshow-container
+{
+  /* height: 650px; */
+}
+
+.slideshow
+{
+  height: 650px;
+  margin-top: 0px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  z-Index: 1;
+}
+
+.slider-btn
+{
+  position: absolute;
+  top: 340px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  border: 2px dashed #ff7200;
+  z-Index: 1;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -172,14 +197,14 @@ header
   {
     width: 150px;
     height: auto;
-    margin: -50px 0px 0px -70px;
+    margin: -53px 0px 0px -75px;
   }
 
   .xp-info-right
   {
     width: 160px;
     height: auto;
-    margin: -55px 0px 0px 127px;
+    margin: -53px 0px 0px 127px;
   }
 
   .nav-btn
@@ -218,5 +243,19 @@ header
     width: 142px;
     height: auto;
     margin: -55px 0px 0px 20px;
+  }
+
+  .slideshow
+  {
+    height: 350px;
+    margin: 80px auto 0px 4px;
+  }
+
+  .slider-btn
+  {
+    top: 200px;
+    /* width: 80px;
+    height: 80px; */
+    border: 2px solid #ff7200;
   }
 }

@@ -19,6 +19,7 @@ import './App.css';
 
 const images =
 [
+    'http://casperweb.herokuapp.com/cover_photo.jpg',
     'http://casperweb.herokuapp.com/aurora.jpg',
     'http://casperweb.herokuapp.com/galaxies.jpg',
     'http://casperweb.herokuapp.com/martin.jpg',
