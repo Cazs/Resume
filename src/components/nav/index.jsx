@@ -87,7 +87,7 @@ class Nav extends React.Component
             </div>
           </div>
           <div
-            style={{marginTop: '140px'}}
+            style={{marginTop: '140px', display: 'flex'}}
           >
             <button
               className='btn btn-primary nav-btn'
@@ -101,15 +101,15 @@ class Nav extends React.Component
               }}>
               Menu
             </button>
-            <img
-              src={profile}
+            <div
+              style={{width: '100px', height: '100px', background: 'url('+profile+')', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
               className="nav-profile-image"
-              alt="logo" />
+               />
             <button
               className='btn btn-success nav-btn'
               style={{
                 marginRight: '-10px',
-                float: 'right',
+                float: 'right'
               }}>
             Contact Me
           </button>
