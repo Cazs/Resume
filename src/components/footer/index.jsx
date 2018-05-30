@@ -41,9 +41,11 @@ class Footer extends React.Component
                 marginTop: '20px',
                 borderTop: '1px solid #fff'
             }}>
-                <p style={{width: '80%', textAlign: 'center', margin: 'auto', paddingTop: '60px', color: '#fff'}}>
-                    At some point in the near future I'd like to work with embedded systems, big data, neural nets and VR.
+                <p style={{width: '80%', textAlign: 'center', margin: '10px auto 0px auto', borderRadius: '10px', paddingTop: '10px', color: '#fff', backgroundColor: 'rgba(0,0,0,.4)'}}>
+                    At some point in the near future I'd like to work with Virtual Reality 🌋 and/or Augmented Reality systems, 🗺 use big data 🗄 (and neural nets? 🕸 ) to make the lives of people easier/happier 🌍 🙂 and maybe embedded systems, 🔌  robots anyone? 🤖
                 </p>
+                <br/>
+                <p>👻</p>
                 <div style={{display: 'flex'}}>
                     <GithubLink href="https://github.com/Cazs" target="_blank" style={{marginRight: '-100px'}}/>
                     <LinkedinLink href="https://www.linkedin.com/in/casper-ndlovu" target="_blank" style={{marginLeft: '-100px'}}/>

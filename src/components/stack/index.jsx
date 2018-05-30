@@ -33,11 +33,11 @@ class Introduction extends React.Component
                         {/* <h3 style={{textAlign: 'center'}}>Spring Boot API</h3> */}
                     </div>
                     <div className='col-lg-2'>
-                        <img src="http://casperweb.herokuapp.com/maven.png" alt="Maven" style={{width: '200px', height: '65px', marginTop: '50px'}}/>
+                        <img src="http://casperweb.herokuapp.com/maven.png" alt="Maven" style={{width: '150px', height: '50px', marginTop: '50px'}}/>
                         {/* <h3 style={{textAlign: 'center'}}>Maven</h3> */}
                     </div>
                     <div className='col-lg-2'>
-                        <img src="http://casperweb.herokuapp.com/junit.png" alt="JUnit" style={{width: '200px', height: '65px', marginTop: '50px'}}/>
+                        <img src="http://casperweb.herokuapp.com/junit.png" alt="JUnit" style={{width: '130px', height: '80px', marginTop: '50px'}}/>
                         {/* <h3 style={{textAlign: 'center'}}>JUnit</h3> */}
                     </div>
                     <div className='col-lg-2'>
