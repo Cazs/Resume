@@ -62,7 +62,8 @@ class Nav extends React.Component
                   height: '70px',
                   // marginLeft: '-10px',
                   // float: 'left',
-                  border: '1px solid #fff'
+                  border: '1px solid #fff',
+                  visibility: 'hidden'
                 }}
               >
                 Background
@@ -79,7 +80,8 @@ class Nav extends React.Component
                   height: '70px',
                   // marginLeft: '-10px',
                   // float: 'left',
-                  border: '1px solid #fff'
+                  border: '1px solid #fff',
+                  visibility: 'hidden'
                 }}
               >
                 Other Interests

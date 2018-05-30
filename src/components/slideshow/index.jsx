@@ -25,7 +25,7 @@ class Slideshow extends Component
       window.setInterval(() =>
         {
           this.goToNextSlide()
-        }, 3000);
+        }, 8000);
     }
   }
 
@@ -50,7 +50,10 @@ class Slideshow extends Component
         <div
           className='slideshow'
           style={{
-            background: 'url('+ this.props.images[this.state.index] + ')'
+            background: 'url('+ this.props.images[this.state.index] + ')',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'contain',
+            backgroundPosition: 'center'
           }}
         />
         {/* Slider buttons */}
@@ -63,6 +66,7 @@ class Slideshow extends Component
             backgroundSize: '70% 70%',
             backgroundPosition: '15px 10px'
           }}
+          onClick={()=>this.goToPreviousSlide()}
         />
         <div
           className='slider-btn'
@@ -73,6 +77,7 @@ class Slideshow extends Component
             backgroundSize: '70% 70%',
             backgroundPosition: '15px 10px'
           }}
+          onClick={()=>this.goToNextSlide()}
         />
         {/* Slider nav */}
         <div style={{marginTop: '-50px'}}>
