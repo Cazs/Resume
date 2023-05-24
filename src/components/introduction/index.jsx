@@ -63,7 +63,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.reactjs.org/"
                         target="_blank"
-                        rel"nofollow noopener noreferrer"
+                        rel="nofollow noopener noreferrer"
                     >
                         ReactJS
                     </a>
