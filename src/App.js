@@ -11,18 +11,18 @@ import Education from './components/education';
 import Work from './components/work';
 import Stack from './components/stack';
 import Projects from './components/projects';
+import PetProjects from './components/petprojects';
 import Footer from './components/footer';
 // import Timeline from './components/timeline';
-
 
 import './App.css';
 
 const images =
 [
-    '../../cover_photo.jpg',
-    '../../aurora.jpg',
-    '../../galaxies.jpg',
-    '../../martin.jpg',
+  '../../cover_photo.jpg',
+  '../../aurora.jpg',
+  '../../galaxies.jpg',
+  '../../martin.jpg',
 ];
 
 class App extends Component
@@ -43,6 +43,7 @@ class App extends Component
         <Education />
         <Stack />
         <Projects />
+        <PetProjects />
         <Footer />
       </div>
     );
