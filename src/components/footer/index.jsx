@@ -40,14 +40,14 @@ class Footer extends React.Component
                 borderTop: '1px solid #fff'
             }}>
                 <p style={{width: '80%', textAlign: 'center', margin: '10px auto 0px auto', borderRadius: '10px', paddingTop: '10px', color: '#fff', backgroundColor: 'rgba(0,0,0,.4)'}}>
-                    At some point in the near future I'd like to work with Virtual Reality 🌋 and/or Augmented Reality systems, 🗺 use big data 🗄 (and neural nets 🕸) to make the lives of people easier/happier 🌍 🙂 and maybe embedded systems, robots anyone? 🤖
+                    At some point in the near future I'd like to work with Virtual Reality <span role="img" aria-label="VR Emoji">🌋</span> and/or Augmented Reality systems, 🗺 use big data 🗄 (and neural nets 🕸) to make the lives of people easier/happier 🌍 🙂 and maybe embedded systems, robots anyone? 🤖
                 </p>
-                <p style={{color: '#fff', marginTop: '20px'}}>You can also find a printer friendly version of my CV <a href='http://casperweb.herokuapp.com/resume.html' target='_blank'>here</a></p>
+                <p style={{color: '#fff', marginTop: '20px'}}>You can also find a printer friendly version of my CV <a href='http://casperweb.herokuapp.com/resume.html' target="_blank" rel="nofollow noopener noreferrer">here</a></p>
                 <br/>
-                <p>👻</p>
+                <span role="img" aria-label="Ghost Emoji">👻</span>
                 <div style={{display: 'flex'}}>
-                    <GithubLink href="https://github.com/Cazs" target="_blank" style={{marginRight: '-100px'}}/>
-                    <LinkedinLink href="https://www.linkedin.com/in/casper-ndlovu" target="_blank" style={{marginLeft: '-100px'}}/>
+                    <GithubLink href="https://github.com/Cazs" target="_blank" rel="nofollow noopener noreferrer" style={{marginRight: '-100px'}}/>
+                    <LinkedinLink href="https://www.linkedin.com/in/casper-ndlovu" target="_blank" rel="nofollow noopener noreferrer" style={{marginLeft: '-100px'}}/>
                 </div>
             </div>
         );
