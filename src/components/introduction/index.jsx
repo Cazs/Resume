@@ -33,6 +33,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.oracle.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Java SE
                     </a>
@@ -42,6 +43,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.spring.io/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Spring Boot API
                     </a>
@@ -51,6 +53,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.typescriptlang.org/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         TypeScript
                     </a>
@@ -69,6 +72,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.electronjs.org/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         ElectronJS
                     </a>
@@ -78,6 +82,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.getbootstrap.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Bootstrap
                     </a>
@@ -87,6 +92,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.expressjs.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         ExpressJS
                     </a>
@@ -96,6 +102,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="http://www.jade-lang.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Jade Template Engine
                     </a>
@@ -105,6 +112,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="http://www.keystonejs.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         KeystoneJS
                     </a>
@@ -114,6 +122,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.nginx.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Nginx
                     </a>
@@ -123,6 +132,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.docker.org/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Docker
                     </a>
@@ -132,6 +142,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.heroku.com/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Heroku
                     </a>
@@ -141,6 +152,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.letsencrypt.org/"
                         target="_blank"
+                        rel="nofollow"
                     >
                         Let's Encrypt
                     </a>
