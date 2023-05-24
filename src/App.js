@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 // custom components
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 import Nav from './components/nav';
 import Slideshow from './components/slideshow';
