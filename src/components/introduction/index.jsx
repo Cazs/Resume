@@ -53,8 +53,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.typescriptlang.org/"
                         target="_blank"
-                        rel="nofollow noopener noreferrer"
-                    >
+                        rel="nofollow noopener noreferrer">
                         TypeScript
                     </a>
                     </li>
