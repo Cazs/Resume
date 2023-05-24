@@ -33,7 +33,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.oracle.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Java SE
                     </a>
@@ -43,7 +43,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.spring.io/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Spring Boot API
                     </a>
@@ -53,7 +53,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.typescriptlang.org/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         TypeScript
                     </a>
@@ -63,6 +63,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.reactjs.org/"
                         target="_blank"
+                        rel"nofollow noopener noreferrer"
                     >
                         ReactJS
                     </a>
@@ -72,7 +73,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.electronjs.org/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         ElectronJS
                     </a>
@@ -82,7 +83,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.getbootstrap.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Bootstrap
                     </a>
@@ -92,7 +93,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.expressjs.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         ExpressJS
                     </a>
@@ -102,7 +103,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="http://www.jade-lang.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Jade Template Engine
                     </a>
@@ -112,7 +113,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="http://www.keystonejs.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         KeystoneJS
                     </a>
@@ -122,7 +123,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.nginx.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Nginx
                     </a>
@@ -132,7 +133,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.docker.org/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Docker
                     </a>
@@ -142,7 +143,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.heroku.com/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Heroku
                     </a>
@@ -152,7 +153,7 @@ class Introduction extends React.Component
                         style={{textDecoration: 'underline', color: '#fff'}}
                         href="https://www.letsencrypt.org/"
                         target="_blank"
-                        rel="nofollow"
+                        rel="nofollow noopener noreferrer"
                     >
                         Let's Encrypt
                     </a>
