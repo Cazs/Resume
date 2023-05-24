@@ -81,13 +81,13 @@ const devops_skills =
     }
 ];
 
-const other_skills =
+/*const other_skills =
 [
     {
         title: 'Public Speaking',
         level: 40
     }
-]
+]*/
 
 const soft_skills =
 [
