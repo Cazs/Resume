@@ -99,7 +99,7 @@ class Nav extends React.Component
               }}
               onClick={()=>
               {
-                this.state.menu_y == MENU_ANIMATE_TO_Y ? this.setState({menu_y: MENU_Y_DEFAULT}) : this.setState({menu_y: MENU_ANIMATE_TO_Y});
+                this.state.menu_y === MENU_ANIMATE_TO_Y ? this.setState({menu_y: MENU_Y_DEFAULT}) : this.setState({menu_y: MENU_ANIMATE_TO_Y});
               }}>
               Menu
             </button>
