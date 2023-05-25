@@ -27,7 +27,7 @@
   font-family: 'Lora';
   src:
     local('Lora'),
-    url('%PUBLIC_URL%/fonts/Lora/Lora-Regular.ttf') format('truetype');
+    url('../public/fonts/Lora/Lora-Regular.ttf') format('truetype');
     font-weight: 400;
 }
 
