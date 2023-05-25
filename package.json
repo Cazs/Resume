@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "5.2.3",
-    "react": "16.8.0",
+    "react": "^16.3.2",
     "react-dom": "16.3.2",
     "react-motion-ui-pack": "^0.10.3",
     "react-redux": "5.0.7",
