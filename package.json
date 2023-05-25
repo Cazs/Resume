@@ -1,10 +1,10 @@
 {
-  "name": "Casper's-Resume-Webapp",
+  "name": "Casper's Resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "5.2.3",
-    "react": "16.3.2",
+    "react": "16.8.0",
     "react-dom": "16.3.2",
     "react-motion-ui-pack": "0.10.3",
     "react-redux": "5.0.7",
