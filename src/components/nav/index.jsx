@@ -106,7 +106,7 @@ class Nav extends React.Component
             <div
               style={{width: '100px', height: '100px', background: 'url('+profile+')', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
               className="nav-profile-image"
-              onClick={()=>window.location='https://casperweb.herokuapp.com/'}
+              onClick={()=>window.location='https://calm-ground-0c6108310.3.azurestaticapps.net/'}
             />
             <button
               className='btn btn-success nav-btn'

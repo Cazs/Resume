@@ -27,7 +27,7 @@ class Projects extends React.Component
                         <a href="http://airotek.herokuapp.com/">Airotek Engineering</a>
                     </div>
                     <div className='col-lg-6'>
-                        <a href="https://casperweb.herokuapp.com/">My Resume website </a>
+                        <a href="https://calm-ground-0c6108310.3.azurestaticapps.net/">My Resume website </a>
                     </div>
                     <div className='col-lg-6'>
                         <a href="http://icebreak.azurewebsites.net/">My group's 3rd year webapp's server and parts of the Android app.</a>
