@@ -1,1 +1,1 @@
-Casper's resume web application
+Casper's Resume Web Application
