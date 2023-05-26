@@ -61,7 +61,7 @@ class Slideshow extends Component
           className='slider-btn'
           style={{
             left: '10px',
-            background: 'url(../public/slider-left-arrow.svg)',
+            background: 'url(./slider-left-arrow.svg)',
             backgroundRepeat: 'no-repeat',
             backgroundSize: '70% 70%',
             backgroundPosition: '15px 10px'
@@ -72,7 +72,7 @@ class Slideshow extends Component
           className='slider-btn'
           style={{
             right: '10px',
-            background: 'url(../public/slider-right-arrow.svg)',
+            background: 'url(./slider-right-arrow.svg)',
             backgroundRepeat: 'no-repeat',
             backgroundSize: '70% 70%',
             backgroundPosition: '15px 10px'
