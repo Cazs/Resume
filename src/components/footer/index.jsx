@@ -27,10 +27,8 @@ const LinkedinLink = styled.a`
     }
 `; 
 
-class Footer extends React.Component
-{
-    render()
-    {
+class Footer extends React.Component {
+    render() {
         return (
             <div style={{
                 width: '100%',

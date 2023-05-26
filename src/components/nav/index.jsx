@@ -1,15 +1,12 @@
 import React from 'react';
 import Transition from 'react-motion-ui-pack';
-
 import profile from './profile.jpg';
 
 const MENU_ANIMATE_TO_Y = 10;
 const MENU_Y_DEFAULT = -220;
 
-class Nav extends React.Component
-{
-  constructor(props)
-  {
+class Nav extends React.Component {
+  constructor(props) {
     super(props);
 
     this.state =
@@ -18,8 +15,7 @@ class Nav extends React.Component
     }
   }
 
-  render()
-  {
+  render() {
     return (
       <Transition
         component={false}

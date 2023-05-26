@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 
-class Slideshow extends Component
-{
-  constructor(props)
-  {
+class Slideshow extends Component {
+  constructor(props) {
       super(props);
       this.goToNextSlide = this.goToNextSlide.bind(this);
       this.goToPreviousSlide = this.goToPreviousSlide.bind(this);
       // this.handleDotClick = this.handleDotClick.bind(this);
 
-      this.state =
-      {
+      this.state = {
         menu_y: 0,
         index: 0,
         autoplay: true,
@@ -18,24 +15,19 @@ class Slideshow extends Component
       }
   }
 
-  componentDidMount()
-  {
-    if(this.state.autoplay)
-    {
-      window.setInterval(() =>
-        {
+  componentDidMount() {
+    if(this.state.autoplay) {
+      window.setInterval(() => {
           this.goToNextSlide()
-        }, 8000);
+      }, 8000);
     }
   }
 
-  goToNextSlide()
-  {
+  goToNextSlide() {
     this.setState({index: this.state.index + 1 >= this.props.images.length ? 0 : this.state.index + 1});
   }
 
-  goToPreviousSlide()
-  {
+  goToPreviousSlide() {
     this.setState(
       {
         // translateValue: this.state.translateValue + mainWindow.getSize()[0],
@@ -43,8 +35,7 @@ class Slideshow extends Component
       });
   }
 
-  render()
-  {
+  render() {
     return (
       <div className='slideshow-container'>
         <div
@@ -94,23 +85,29 @@ class Slideshow extends Component
             }}
           >
             <div style={{display: 'flex'}}>
-              {this.props.images.map((img_path, index) =>
-                (<div
-                  style={{
-                    width: '17px',
-                    height: '17px',
-                    marginLeft: '2px',
-                    marginRight: '2px',
-                    marginTop: '3px',
-                    borderRadius: '20px',
-                    backgroundColor: index === this.state.index ? '#ff7200' : '#fff'
-                  }}
-                />)
-              )}
+              {
+                this.props.images.map((img_path, index) =>
+                (
+                  <div
+                    key={`slideshow-image-${index}`}
+                    style={{
+                      width: '17px',
+                      height: '17px',
+                      marginLeft: '2px',
+                      marginRight: '2px',
+                      marginTop: '3px',
+                      borderRadius: '20px',
+                      backgroundColor: index === this.state.index ? '#ff7200' : '#fff'
+                    }}
+                  />
+                ))
+              }
             </div>
           </div>
         </div>
-      </div>);
+      </div>
+    );
   }
 }
+
 export default Slideshow;

@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Introduction extends React.Component
-{
-    render()
-    {
+class Introduction extends React.Component {
+    render() {
         return (
             <div style={{width: '90%', margin: 'auto', backgroundColor: '#fff', padding: '30px', borderRadius: '10px'}}>
                 <h3 style={{textAlign: 'center', paddingBottom: '30px'}}>Stack History</h3>

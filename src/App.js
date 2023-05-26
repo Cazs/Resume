@@ -14,8 +14,8 @@ import Projects from './components/projects';
 import PetProjects from './components/petprojects';
 import Footer from './components/footer';
 // import Timeline from './components/timeline';
-
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const images =
 [
@@ -25,26 +25,22 @@ const images =
   './martin.jpg',
 ];
 
-class App extends Component
-{
-  componentDidMount()
-  {
-  }
+class App extends Component {
+  componentDidMount() {}
 
-  render()
-  {
+  render() {
     return (
       <div className="App">
-        <Nav />
-        <Slideshow images={images} />
-        <Introduction />
-        <Skills />
-        <Work />
-        <Education />
-        <Stack />
-        <Projects />
-        <PetProjects />
-        <Footer />
+        <Nav key="nav-component" />
+        <Slideshow key="slideshow-component" images={images} />
+        <Introduction key="introduction-component" />
+        <Skills key="skills-component" />
+        <Work key="work-component" />
+        <Education key="education-component" />
+        <Stack key="stack-component" />
+        <Projects key="projects-component" />
+        <PetProjects key="pet-projects-component" />
+        <Footer key="footer-component" />
       </div>
     );
   }

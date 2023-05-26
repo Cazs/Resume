@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Projects extends React.Component
-{
-    render()
-    {
+class Projects extends React.Component {
+    render() {
         return (
             <div style={{
                 width: '90%',

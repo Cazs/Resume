@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "5.2.3",
+    "bootstrap": "4.6.2",
     "react": "15.7.0",
     "react-dom": "15.7.0",
     "react-motion-ui-pack": "^0.10.1",
