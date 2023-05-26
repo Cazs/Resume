@@ -19,10 +19,10 @@ import './App.css';
 
 const images =
 [
-  '../../public/cover_photo.jpg',
-  '../../public/aurora.jpg',
-  '../../public/galaxies.jpg',
-  '../../public/martin.jpg',
+  './public/cover_photo.jpg',
+  './public/aurora.jpg',
+  './public/galaxies.jpg',
+  './public/martin.jpg',
 ];
 
 class App extends Component
