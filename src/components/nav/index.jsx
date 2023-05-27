@@ -1,6 +1,6 @@
 import React from 'react';
 import Transition from 'react-motion-ui-pack';
-import profile from './psybr-tech-sec.png';
+// import profile from './psybr-tech-sec.png';
 
 const MENU_ANIMATE_TO_Y = 10;
 const MENU_Y_DEFAULT = -220;
@@ -100,7 +100,7 @@ class Nav extends React.Component {
               Menu
             </button>
             <div
-              style={{width: '100px', height: '100px', background: 'url('+profile+')', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
+              style={{width: '100px', height: '100px', background: 'url(../../../public/psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
               className="nav-profile-image"
               onClick={()=>window.location='https://calm-ground-0c6108310.3.azurestaticapps.net/'}
             />

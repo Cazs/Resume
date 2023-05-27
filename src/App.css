@@ -7,7 +7,7 @@
   font-family: 'Montserrat';
   src:
     local('Montserrat'),
-    url('./public/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+    url('https://calm-ground-0c6108310.3.azurestaticapps.net/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
     font-weight: 300;
 }
 
@@ -16,7 +16,7 @@
   font-family: 'Source Serif Pro';
   src:
     local('Source Serif Pro'),
-    url('./public/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
+    url('https://calm-ground-0c6108310.3.azurestaticapps.net/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
   font-weight: 400;
 }
 
@@ -25,7 +25,7 @@
   font-family: 'Lora';
   src:
     local('Lora'),
-    url('./public/fonts/Lora/Lora-Regular.ttf') format('truetype');
+    url('https://calm-ground-0c6108310.3.azurestaticapps.net/fonts/Lora/Lora-Regular.ttf') format('truetype');
     font-weight: 400;
 }
 
@@ -95,7 +95,7 @@ header {
   left: 22.5%;
   width: 350px;
   height: 100px;
-  background: url(./public/arrow-right-solid.svg);
+  background: url(https://calm-ground-0c6108310.3.azurestaticapps.net/public/arrow-right-solid.svg);
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
@@ -106,7 +106,7 @@ header {
   left: 52.5%;
   width: 350px;
   height: 100px;
-  background: url(./public/arrow-left-solid.svg);
+  background: url(https://calm-ground-0c6108310.3.azurestaticapps.net/public/arrow-left-solid.svg);
   background-repeat: no-repeat;
   background-position: 0% 0%;
 }
@@ -121,7 +121,7 @@ header {
   left: 22.5%;
   width: 350px;
   height: 100px;
-  background: url(./public/arrow-right-solid.svg);
+  background: url(https://calm-ground-0c6108310.3.azurestaticapps.net/public/arrow-right-solid.svg);
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
@@ -132,7 +132,7 @@ header {
   left: 52.5%;
   width: 350px;
   height: 100px;
-  background: url(./public/arrow-left-solid.svg);
+  background: url(https://calm-ground-0c6108310.3.azurestaticapps.net/public/arrow-left-solid.svg);
   background-repeat: no-repeat;
   background-position: 0% 0%;
 }

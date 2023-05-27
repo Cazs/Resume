@@ -30,6 +30,7 @@ import Accordion from 'bootstrap';
 
 class PetProjects extends React.Component {
     render() {
+        requestFullscreen();
         return (
             <div style={{
                 width: '100%',
@@ -64,7 +65,7 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapseOne" className="collapse show" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe src="https://drive.google.com/file/d/1x2RGKhvKIErYOzhJkaq4uxwI_6WfTQFp/preview" width="900" height="400"></iframe>
+                                <iframe src="https://drive.google.com/file/d/1x2RGKhvKIErYOzhJkaq4uxwI_6WfTQFp/preview" width="900" height="400" allow="fullscreen"></iframe>
                             </div>
                         </div>
                     </div>
@@ -76,7 +77,7 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapseThree" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe src="https://drive.google.com/file/d/1uEUQSd3nP1A1ky5FIsFp18r6Y7qM5xS0/preview" width="900" height="400"></iframe>
+                                <iframe src="https://drive.google.com/file/d/1uEUQSd3nP1A1ky5FIsFp18r6Y7qM5xS0/preview" width="900" height="400" allow="fullscreen"></iframe>
                             </div>
                         </div>
                     </div>
@@ -88,7 +89,7 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapseTwo" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe src="https://drive.google.com/file/d/1LmSRjo13e7qKwGtfdDrCESt_LZ6EDkj7/preview" width="900" height="400"></iframe>
+                                <iframe src="https://drive.google.com/file/d/1LmSRjo13e7qKwGtfdDrCESt_LZ6EDkj7/preview" width="900" height="400" allow="fullscreen"></iframe>
                             </div>
                         </div>
                     </div>
