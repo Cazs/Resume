@@ -1,6 +1,6 @@
 import React from 'react';
 import Transition from 'react-motion-ui-pack';
-import profile from './profile.jpg';
+import profile from './psybr-tech-sec.png';
 
 const MENU_ANIMATE_TO_Y = 10;
 const MENU_Y_DEFAULT = -220;
