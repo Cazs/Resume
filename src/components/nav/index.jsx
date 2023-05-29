@@ -85,6 +85,7 @@ class Nav extends React.Component {
             </div>
           </div>
           <div
+            id="nav-form-controls"
             style={{marginTop: '140px', display: 'flex'}}
           >
             <button

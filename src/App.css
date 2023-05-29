@@ -198,6 +198,11 @@ header {
 }
 
 @media (max-width: 375px) {
+  #nav-form-controls {
+    margin-top: 75px !important;
+    display: 'flex' !important;
+  }
+
   .skill-bar {
     width: 50%;
     height: 5px;
@@ -267,5 +272,104 @@ header {
     /* width: 80px;
     height: 80px; */
     border: 2px solid #ff7200;
+  }
+
+  .pet-project-video {
+    width: 375px !important;
+    height: 250px !important;
+  }
+}
+
+/* 6" smartphone portrait */
+@media (min-width: 100px) and (max-width: 375px) {
+  #nav-form-controls {
+    margin-top: 142px !important;
+    display: 'flex' !important;
+  }
+
+  .nav-profile-image {
+    margin-top: -67px;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 80px;
+    border: 2px solid #3c3c3c;
+    float: left;
+    /* margin-left: 30vw; */
+  }
+
+  .xp-info-left {
+    width: 150px;
+    height: auto;
+    margin: -53px 0px 0px -75px;
+  }
+
+  .xp-info-right {
+    width: 155px;
+    height: auto;
+    margin: -53px 0px 0px 15px;
+  }
+
+  .education-info-left {
+    width: 150px;
+    height: auto;
+    margin: -55px 0px 0px -75px;
+  }
+
+  .education-info-right {
+    width: 143x;
+    height: auto;
+    margin: -55px 0px 0px 17px;
+  }
+
+  .pet-project-video {
+    width: 325px !important;
+    height: 250px !important;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 800px) {
+  #nav-form-controls {
+    margin-top: 75px !important;
+    display: 'flex' !important;
+  }
+
+  .xp-info-left {
+    width: 300px;
+    height: auto;
+    margin: -53px 0px 0px -120px !important;
+  }
+
+  .xp-info-right {
+    width: 300px;
+    height: auto;
+    margin: -53px 0px 0px 10px !important;
+  }
+
+  .education-info-left {
+    width: 300px;
+    height: auto;
+    margin: -53px 0px 0px -120px !important;
+  }
+
+  .education-info-right {
+    width: 300px;
+    height: auto;
+    margin: -53px 0px 0px 10px !important;
+  }
+
+  .pet-project-video {
+    width: 300px !important;
+    height: 250px !important;
+  }
+}
+
+/* @media (min-width: 768px) and (max-width: 800px) { */
+
+@media (min-width: 800px) {
+  .pet-project-video {
+    .pet-project-video {
+      width: 400px !important;
+      height: 250px !important;
+    }
   }
 }
