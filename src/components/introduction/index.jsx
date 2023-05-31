@@ -7,7 +7,7 @@ class Introduction extends React.Component
         return (
             <div>
                 <h3 style={{textAlign: 'center', color: '#fff'}}>Introduction</h3>
-                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
+                {/* <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
                 Casper is a 22 year old tech junkie who grew up in Randburg, Johannesburg, South Africa.
                 </p>
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>He first learned to program a computer using Borland Delphi 7, 7 years ago (in 10th grade).</p>
@@ -23,7 +23,12 @@ class Introduction extends React.Component
                     He's constantly pushing his intellectual and creative limits by always creating new apps using new tools all the time 
                     in order maintain a solid dev stack.
                 </p>
-                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>Lives on the bleeding edge.</p>
+                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>Lives on the bleeding edge.</p> */}
+                <p style={{width: '80%', margin: 'auto', color: '#fff'}}>
+                    I'm a 28 year old tech enthusiast who grew up in Randburg, Johannesburg, South Africa.
+                    I first learned to code using Borland Delphi 7 (Pascal), 12 years ago. I primarily design & develop applications for the Web but I do also work on applications for Windows, Android & Linux - I occasionally dabble in a bit of MacOS and iOS pet-projects although that's not my primary stack/market - unless it's a WORA/WORE implementation of course. I've worked with most of the common methodologies of the Software Development Life Cycle, mainly the Agile, Extreme Programming & Waterfall methodology along with SCRUM.
+                    I'm proficient in JavaScript/Typescript (Front-end using Angular, React, Vue and Back-end using Express, Axios and Nest - along with TypeORM), Java (SpringBoot & Hibernate), C#.NET, PL/SQL and  Bash. I'd describe myself as a curious individual who likes to experiment with a wide range of technologies such as Python, C (mainly for electronics programming - currently Arduino Uno & Mega and the Nordic nRF52) and occassionally some C++ usually only for experimenting with Unreal Engine.
+                </p>
                 <br />
                 <p style={{width: '80%', margin: 'auto', color: '#fff'}}>My day-to-day stack includes:</p>
                 <div style={{width: '25%', margin: 'auto', color: '#fff'}}>

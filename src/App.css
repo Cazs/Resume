@@ -69,16 +69,16 @@ header {
 }
 
 .nav-profile-image {
-  margin: 15px auto -15px auto;
-  /* width: 100px;
-  height: 100px;*/
+  margin: -3px auto -15px auto;
+  width: 75px !important;
+  height: 75px !important;
   border-radius: 80px;
   border: 2px solid #3c3c3c;
   /* background-position: 0% 0%; */
 }
 
 .nav-profile-image:hover {
-  box-shadow: #343434 0px 0px 20px;
+  box-shadow: #343434 0px 0px 20px !important;
 }
 
 .App-title {
