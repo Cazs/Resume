@@ -7,7 +7,7 @@
   font-family: 'Montserrat';
   src:
     local('Montserrat'),
-    url('https://calm-ground-0c6108310.3.azurestaticapps.net/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+    url('https://calm-ground-0c6108310.3.azurestaticapps.net/static/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
     font-weight: 300;
 }
 

@@ -101,7 +101,7 @@ class Nav extends React.Component {
               Menu
             </button>
             <div
-              style={{width: '100px', height: '100px', background: 'url(../../../public/psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
+              style={{width: '100px', height: '100px', background: 'url(../../../psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
               className="nav-profile-image"
               onClick={()=>window.location='https://calm-ground-0c6108310.3.azurestaticapps.net/'}
             />
