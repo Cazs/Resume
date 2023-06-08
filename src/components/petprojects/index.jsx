@@ -65,7 +65,9 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapseOne" className="collapse show" data-parent="#accordion">
                             <div className="card-body">
-                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/capture-the-flag.zip'></a>
+                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/capture-the-flag.zip'>
+                                    <span role="img" aria-label="Floppy Disk Emoji">💾 Download Capture The Flag</span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +79,9 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapseTwo" className="collapse show" data-parent="#accordion">
                             <div className="card-body">
-                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/platformer-level-editor.zip'></a>
+                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/platformer-level-editor.zip'>
+                                    <span role="img" aria-label="Floppy Disk Emoji">💾 Download Platformer Level Editor</span>
+                                </a>
                             </div>
                         </div>
                     </div>
