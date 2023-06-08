@@ -60,10 +60,34 @@ class PetProjects extends React.Component {
                     <div className="card">
                         <div className="card-header">
                             <a className="card-link" data-toggle="collapse" href="#collapseOne">
-                                Arduino Mega Stuff
+                                Capture The Flag Game (3rd Year Computer Science Project)
                             </a>
                         </div>
                         <div id="collapseOne" className="collapse show" data-parent="#accordion">
+                            <div className="card-body">
+                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/capture-the-flag.zip'></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-header">
+                            <a className="card-link" data-toggle="collapse" href="#collapseTwo">
+                                Platformer Game Level Editor (2nd Year Computer Science Project)
+                            </a>
+                        </div>
+                        <div id="collapseTwo" className="collapse show" data-parent="#accordion">
+                            <div className="card-body">
+                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/platformer-level-editor.zip'></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-header">
+                            <a className="card-link" data-toggle="collapse" href="#collapseThree">
+                                Arduino Mega Stuff
+                            </a>
+                        </div>
+                        <div id="collapseThree" className="collapse show" data-parent="#accordion">
                             <div className="card-body">
                                 <iframe className="pet-project-video" src="https://drive.google.com/file/d/1x2RGKhvKIErYOzhJkaq4uxwI_6WfTQFp/preview" allow="fullscreen"></iframe>
                             </div>
@@ -71,11 +95,11 @@ class PetProjects extends React.Component {
                     </div>
                     <div className="card">
                         <div className="card-header">
-                            <a className="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                            <a className="collapsed card-link" data-toggle="collapse" href="#collapseFour">
                                 RC Car Project
                             </a>
                         </div>
-                        <div id="collapseThree" className="collapse" data-parent="#accordion">
+                        <div id="collapseFour" className="collapse" data-parent="#accordion">
                             <div className="card-body">
                                 <iframe className="pet-project-video" src="https://drive.google.com/file/d/1uEUQSd3nP1A1ky5FIsFp18r6Y7qM5xS0/preview" allow="fullscreen"></iframe>
                             </div>
@@ -83,11 +107,11 @@ class PetProjects extends React.Component {
                     </div>
                     <div className="card">
                         <div className="card-header">
-                            <a className="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                            <a className="collapsed card-link" data-toggle="collapse" href="#collapseFive">
                                 Makeshift Steering System for RC car
                             </a>
                         </div>
-                        <div id="collapseTwo" className="collapse" data-parent="#accordion">
+                        <div id="collapseFive" className="collapse" data-parent="#accordion">
                             <div className="card-body">
                                 <iframe className="pet-project-video" src="https://drive.google.com/file/d/1LmSRjo13e7qKwGtfdDrCESt_LZ6EDkj7/preview" allow="fullscreen"></iframe>
                             </div>
