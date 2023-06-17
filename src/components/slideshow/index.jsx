@@ -1,25 +1,35 @@
 import React, { Component } from 'react';
 
 class Slideshow extends Component {
+  slideInterval = 5000;
+  slideShowInterval = null;
+
   constructor(props) {
       super(props);
       this.goToNextSlide = this.goToNextSlide.bind(this);
       this.goToPreviousSlide = this.goToPreviousSlide.bind(this);
-      // this.handleDotClick = this.handleDotClick.bind(this);
+      this.goToGivenSlide = this.goToGivenSlide.bind(this);
 
       this.state = {
         menu_y: 0,
         index: 0,
         autoplay: true,
-        translateValue: 0
+        translateValue: 0,
+        paused: false,
       }
   }
 
+  setInterval(interval) {
+    this.slideShowInterval = window.setInterval(() => {
+        if(!this.state.paused) {
+          this.goToNextSlide();
+        }
+      }, interval);
+  }
+  
   componentDidMount() {
     if(this.state.autoplay) {
-      window.setInterval(() => {
-          this.goToNextSlide()
-      }, 8000);
+      this.setInterval(this.slideInterval);
     }
   }
 
@@ -34,55 +44,81 @@ class Slideshow extends Component {
         index: this.state.index - 1 < 0 ? this.props.images.length-1 : this.state.index - 1
       });
   }
+  
+  goToGivenSlide(position) {
+    if(position >= 0 && position < this.props.images.length) {
+      window.clearInterval(this.slideShowInterval);
+      this.setState(
+        {
+          // translateValue: this.state.translateValue + mainWindow.getSize()[0],
+          index: position,
+          paused: true,
+        });
+      } else {
+        console.error('Invalid slide position!');
+      }
+  }
 
   render() {
     return (
-      <div className='slideshow-container'>
+      <div id='slideshow-container'>
+        
+        {/* Slideshow image */}
         <div
-          className='slideshow'
+          id='slideshow'
           style={{
-            background: 'url('+ this.props.images[this.state.index] + ')',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center'
+            background: 'url('+ this.props?.images?.[this.state?.index || 0]?.name + ')',
+            transform: this.props?.images?.[this.state?.index || 0]?.transform ? this.props?.images?.[this.state?.index || 0]?.transform : '',
           }}
-        />
-        {/* Slider next/previous buttons */}
-        <div
-          className='slider-btn'
-          style={{
-            left: '10px',
-            background: 'url(./slider-left-arrow.svg)',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: '70% 70%',
-            backgroundPosition: '15px 10px'
-          }}
-          onClick={()=>this.goToPreviousSlide()}
-        />
-        <div
-          className='slider-btn'
-          style={{
-            right: '10px',
-            background: 'url(./slider-right-arrow.svg)',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: '70% 70%',
-            backgroundPosition: '15px 10px'
-          }}
-          onClick={()=>this.goToNextSlide()}
-        />
-        {/* Slider nav */}
-        <div style={{marginTop: '-50px'}}>
+        >
+
+        {/* Slideshow previous/pause/play/next buttons */}
           <div
-            style={{
-              display: 'inline-block',
-              height: '25px',
-              marginLeft: 'auto',
-              marginRight: 'auto',
-              marginBottom: '50px',
-              borderRadius: '80px',
-              border: '1px dashed #ff7200',
-              backgroundColor: 'rgba(0,0,0,.5)'
+            id='slideshow-left-button'
+            className='slideshow-left-right-button'
+            onClick={() => {
+              window.clearInterval(this.slideShowInterval);
+              this.setState( { paused: true });
+              this.goToPreviousSlide();
             }}
+          />
+
+          <div
+            id='slideshow-play-pause-button'
+            style={{
+              right: '46.5vw',
+              background: !this.state.paused ? 'url(/css/images/slideshow-pause-button.svg)' : 'url(/css/images/slideshow-play-button.svg)',
+            }}
+            onClick={() => {
+              if(this.state.paused) {
+                this.setInterval(this.slideInterval);
+                this.setState({
+                  ...this.state,
+                  paused: false,
+                });
+              } else {
+                window.clearInterval(this.slideShowInterval);
+                this.setState({
+                  ...this.state,
+                  paused: true,
+                });
+              }
+            }}
+          />
+          
+          <div
+            id='slideshow-right-button'
+            className='slideshow-left-right-button'
+            onClick={() => {
+              window.clearInterval(this.slideShowInterval);
+              this.setState( { paused: true });
+              this.goToNextSlide();
+            }}
+          />
+
+          {/* Slideshow nav */}
+          <div
+            id='slideshow-nav-container'
           >
             <div style={{display: 'flex'}}>
               {
@@ -90,15 +126,11 @@ class Slideshow extends Component {
                 (
                   <div
                     key={`slideshow-image-${index}`}
+                    id='slideshow-nav-button'
                     style={{
-                      width: '17px',
-                      height: '17px',
-                      marginLeft: '2px',
-                      marginRight: '2px',
-                      marginTop: '3px',
-                      borderRadius: '20px',
                       backgroundColor: index === this.state.index ? '#ff7200' : '#fff'
                     }}
+                    onClick={() => this.goToGivenSlide(index)}
                   />
                 ))
               }

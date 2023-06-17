@@ -19,7 +19,7 @@ class Skill extends React.Component {
                                 <div className='col-lg-4'>
                                     <div id={`skill-bar-${index}`} className='skill-bar'>
                                         <div id={`skill-level-${index}`} style={{ width: `${skill.level}%`, height: '5px', backgroundColor: '#ff7400', borderRadius: '5px' }} />
-                                        <div style={{ width: '20px', height: '20px', backgroundColor: '#ff7400', borderRadius: '20px', margin: `-13px 0px 0px ${skill.level - 5}%` }} />
+                                        <div style={{ width: '20px', height: '20px', backgroundColor: '#ff7400', borderRadius: '20px', margin: `-13px 0px 0px ${skill.level - 1}%` }} />
                                     </div>
                                 </div>
                                 <div className='col-lg-4'>

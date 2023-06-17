@@ -67,7 +67,7 @@ class PetProjects extends React.Component {
                             <div className="card-body">
                                 <img className="pet-project-preview" src="https://image.ibb.co/iHVTMT/ctf600x375_15fps.gif" style={{ marginBottom: '15px' }} width="240" height="180" alt="Capture The Flag game preview" datatype="gif" />
                                 <br/>
-                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/capture-the-flag.zip'>
+                                <a href='/media/executables/capture-the-flag.zip'>
                                     <span role="img" aria-label="Floppy Disk Emoji">💾 Download Capture The Flag</span>
                                 </a>
                             </div>
@@ -84,7 +84,7 @@ class PetProjects extends React.Component {
                             <div className="card-body">
                                 <img className="pet-project-preview"  src="https://i.ibb.co/D9m4t93/level-editor700x438-30fps.gif" style={{ marginBottom: '15px' }} width="240" height="180" alt="Capture The Flag game preview" datatype="gif" />
                                 <br/>
-                                <a href='https://calm-ground-0c6108310.3.azurestaticapps.net/static/media/platformer-level-editor.zip'>
+                                <a href='/media/executables/platformer-level-editor.zip' download>
                                     <span role="img" aria-label="Floppy Disk Emoji">💾 Download Platformer Level Editor</span>
                                 </a>
                             </div>

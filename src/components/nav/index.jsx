@@ -32,8 +32,6 @@ class Nav extends React.Component {
         ref={(el)=> this.menu_bar = el}
         style={{
           zIndex: '100',
-          // background: 'rgb(180, 180, 180)'
-          // left: window.innerWidth * 0.010 + '%',
         }}
       >
         <header
@@ -49,15 +47,12 @@ class Nav extends React.Component {
         >
           <div className="row">
             <div className="col-lg-6">
-              {/* <div style={{width: '70px', height: '70px', borderRadius: '70px', backgroundColor: '#343434', boxShadow: '#000 0px 0px 10px'}}/> */}
               <button
                 className='btn btn-primary'
                 style={{
                   marginTop: '-5px',
                   width: '110px',
                   height: '70px',
-                  // marginLeft: '-10px',
-                  // float: 'left',
                   border: '1px solid #fff',
                   visibility: 'hidden'
                 }}
@@ -67,15 +62,12 @@ class Nav extends React.Component {
             </div>
 
             <div className="col-lg-6">
-              {/* <div style={{width: '70px', height: '70px', borderRadius: '70px', backgroundColor: '#343434', boxShadow: '#000 0px 0px 10px'}}/> */}
               <button
                 className='btn btn-primary'
                 style={{
                   marginTop: '-5px',
                   width: '160px',
                   height: '70px',
-                  // marginLeft: '-10px',
-                  // float: 'left',
                   border: '1px solid #fff',
                   visibility: 'hidden'
                 }}
@@ -89,6 +81,7 @@ class Nav extends React.Component {
             style={{marginTop: '140px', display: 'flex'}}
           >
             <button
+              id="nav-menu-btn"
               className='btn btn-primary nav-btn'
               style={{
                 marginLeft: '-10px',
@@ -101,11 +94,12 @@ class Nav extends React.Component {
               Menu
             </button>
             <div
-              style={{width: '100px', height: '100px', background: 'url(../../../psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
-              className="nav-profile-image"
-              onClick={()=>window.location='https://calm-ground-0c6108310.3.azurestaticapps.net/'}
+              style={{width: '100px', height: '100px', background: 'url(/media/navbar/psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
+              id="nav-profile-image"
+              onClick={()=>window.location='http://casper.ndlovu.website/'}
             />
             <button
+              id="nav-contact-btn"
               className='btn btn-success nav-btn'
               style={{
                 marginRight: '-10px',
