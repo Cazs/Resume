@@ -1,8 +1,7 @@
 {
-  "name": "Casper's Resume",
+  "name": "casper-resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./public",
   "dependencies": {
     "bootstrap": "4.6.2",
     "jquery": "3.7.0",

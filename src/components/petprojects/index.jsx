@@ -8,13 +8,12 @@ class PetProjects extends React.Component {
                 height: 'auto',
                 backgroundColor: '#56b4d3',
                 marginTop: '20px',
-                borderTop: '1px solid #fff'
+                borderTop: '2px solid #000'
             }}>
-                <h2>Pet Projects and Proof of Concepts</h2>
-
+                <h2 style={{ marginTop: '15px' }}>Pet Projects and Proof of Concepts</h2>
                 <p>Unfortunately I don't have enough time to work on all my side projects, but don't worry, something really cool is coming!<span role="img" aria-label="Shhh Emoji">🤫</span></p>
 
-                <div id="accordion">
+                <div id="accordion" style={{borderTop: '2px solid #000'}}>
                     <div className="card">
                         <div className="card-header">
                             <a className="card-link" data-toggle="collapse" href="#collapse1">
@@ -57,9 +56,9 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapse3" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1x2RGKhvKIErYOzhJkaq4uxwI_6WfTQFp/preview" allow="fullscreen"></iframe>
+                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1x2RGKhvKIErYOzhJkaq4uxwI_6WfTQFp/preview"></iframe>
                                 <br />
-                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1T5vddSPC97gu36LvCkJgvx4eu74zPr9e/preview" allow="fullscreen"></iframe>
+                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1T5vddSPC97gu36LvCkJgvx4eu74zPr9e/preview"></iframe>
                             </div>
                         </div>
                     </div>
@@ -72,7 +71,7 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapse4" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1uEUQSd3nP1A1ky5FIsFp18r6Y7qM5xS0/preview" allow="fullscreen"></iframe>
+                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1uEUQSd3nP1A1ky5FIsFp18r6Y7qM5xS0/preview"></iframe>
                             </div>
                         </div>
                     </div>
@@ -85,7 +84,7 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapse5" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1LmSRjo13e7qKwGtfdDrCESt_LZ6EDkj7/preview" allow="fullscreen"></iframe>
+                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1LmSRjo13e7qKwGtfdDrCESt_LZ6EDkj7/preview"></iframe>
                             </div>
                         </div>
                     </div>
@@ -98,7 +97,7 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapse6" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1Xw3gJk5i_csiskaKGK4pw-G3UHdwl3UY/preview" allow="fullscreen"></iframe>
+                                <iframe className="pet-project-video" src="https://drive.google.com/file/d/1Xw3gJk5i_csiskaKGK4pw-G3UHdwl3UY/preview"></iframe>
                             </div>
                         </div>
                     </div>

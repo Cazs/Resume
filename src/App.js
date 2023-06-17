@@ -11,8 +11,8 @@ import Projects from './components/projects';
 import PetProjects from './components/petprojects';
 import Footer from './components/footer';
 
-import './css/app.css';
 import './css/bootstrap.min.css';
+import './css/app.css';
 
 const images = [
   { name: '/media/slideshow/cover_photo.jpg' },

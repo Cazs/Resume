@@ -67,7 +67,7 @@ class Education extends React.Component {
             <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Univ. of Johannesburg (2014 - present)</p>
             <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>BSc Information Technology</p>
             <p>
-              Majoring in Computer Science &amp; Informatics and minoring in Mathematics (Calculus 1 &amp; Descrete 1), Business Management 1 and Information Management 1.
+              Majoring in Computer Science &amp; Informatics and minoring in Mathematics (Calculus 1 &amp; Discrete 1), Business Management 1 and Information Management 1.
             </p>
           </div>
         </div>

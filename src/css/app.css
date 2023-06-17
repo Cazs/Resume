@@ -63,7 +63,7 @@ header {
   width: 160px;
   height: 70px;
   float: left;
-  border: 1px solid #fff;
+  border: 2px solid #fff !important;
 }
 
 #nav-menu-btn {
@@ -75,7 +75,7 @@ header {
   width: 75px !important;
   height: 75px !important;
   border-radius: 80px;
-  border: 2px solid #3c3c3c;
+  border: 1px solid #fff;
 }
 
 #nav-profile-image:hover {
@@ -168,6 +168,7 @@ header {
 #slideshow-container {
   height: 82vh;
   margin-top: 10vh;
+  border-bottom: 2px solid #fff;
 }
 
 #slideshow {
