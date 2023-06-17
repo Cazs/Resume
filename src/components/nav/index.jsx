@@ -36,7 +36,8 @@ class Nav extends React.Component {
       >
         <header
           key='app-header'
-          className="App-header"
+          id='app-header'
+          className="app-header"
           style={{
             top: '0px',
             width: '100%',
@@ -96,7 +97,7 @@ class Nav extends React.Component {
             <div
               style={{width: '100px', height: '100px', background: 'url(/media/navbar/psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
               id="nav-profile-image"
-              onClick={()=>window.location='http://casper.ndlovu.website/'}
+              onClick={()=>window.location='/'}
             />
             <button
               id="nav-contact-btn"

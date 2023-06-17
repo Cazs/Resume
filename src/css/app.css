@@ -7,7 +7,7 @@
   font-family: 'Montserrat';
   src:
     local('Montserrat'),
-    url('http://casper.ndlovu.website/static/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+    url(./fonts/Montserrat/Montserrat-Light.ttf) format('truetype');
     font-weight: 300;
 }
 
@@ -16,7 +16,7 @@
   font-family: 'Source Serif Pro';
   src:
     local('Source Serif Pro'),
-    url('http://casper.ndlovu.website/fonts/SourceSerifPro/SourceSerifPro-Regular.ttf') format('truetype');
+    url(./fonts/SourceSerifPro/SourceSerifPro-Regular.ttf) format('truetype');
   font-weight: 400;
 }
 
@@ -25,7 +25,7 @@
   font-family: 'Lora';
   src:
     local('Lora'),
-    url('http://casper.ndlovu.website/fonts/Lora/Lora-Regular.ttf') format('truetype');
+    url(./fonts/Lora/Lora-Regular.ttf) format('truetype');
     font-weight: 400;
 }
 
@@ -62,7 +62,7 @@ header {
 }
 
 .nav-btn {
-  margin-top: 20px;
+  margin-top: 0px;
   width: 160px;
   height: 70px;
   float: left;
@@ -74,7 +74,7 @@ header {
 }
 
 #nav-profile-image {
-  margin: 16px auto 0px auto;
+  margin: -3px auto 0px auto;
   width: 75px !important;
   height: 75px !important;
   border-radius: 80px;
@@ -104,7 +104,7 @@ header {
   left: 22.5%;
   width: 350px;
   height: 100px;
-  background: url(http://casper.ndlovu.website/public/arrow-right-solid.svg);
+  background: url(./images/arrow-right-solid.svg);
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
@@ -115,7 +115,7 @@ header {
   left: 52.5%;
   width: 350px;
   height: 100px;
-  background: url(http://casper.ndlovu.website/public/arrow-left-solid.svg);
+  background: url(./images/arrow-left-solid.svg);
   background-repeat: no-repeat;
   background-position: 0% 0%;
 }
@@ -130,7 +130,7 @@ header {
   left: 22.5%;
   width: 350px;
   height: 100px;
-  background: url(http://casper.ndlovu.website/public/arrow-right-solid.svg);
+  background: url(./images/arrow-right-solid.svg);
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
@@ -141,7 +141,7 @@ header {
   left: 52.5%;
   width: 350px;
   height: 100px;
-  background: url(http://casper.ndlovu.website/public/arrow-left-solid.svg);
+  background: url(./images/arrow-left-solid.svg);
   background-repeat: no-repeat;
   background-position: 0% 0%;
 }
@@ -455,7 +455,16 @@ header {
     background-color: #ff7200 !important;
   } */
 
+  /*header {
+    height: 300px !important;
+  }
+  
+  #app-header {
+    height: 300px !important;
+  }*/
+
   #nav-form-controls {
+    /* height: 300px !important; */
     margin-top: 75px !important;
     display: 'flex' !important;
   }
