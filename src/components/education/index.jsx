@@ -1,12 +1,10 @@
 import React from 'react';
 
-class Education extends React.Component
-{
-  render()
-  {
+class Education extends React.Component {
+  render() {
     return (
       <div className="education-info-container">
-        <h3 style={{textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff'}}>Education</h3>
+        <h3 style={{ textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff' }}>Education</h3>
         <div
           style={{
             width: '50px',
@@ -18,20 +16,18 @@ class Education extends React.Component
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder'}}>2009</p>
+          <p style={{ fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder' }}>2009</p>
         </div>
         <div className='education-info-left'>
           <div style={{
-              width: '86%',
-              // height: '85px',
-              marginTop: '-10px',
-              borderRadius: '5px',
-              backgroundColor: '#eeeeee',
-              padding: '10px'
-              // border: '1px solid #343434'
-            }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Rand Park High School ( 20­09 - 2013)</p>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Nation Senior Certificate</p>
+            width: '86%',
+            marginTop: '-10px',
+            borderRadius: '5px',
+            backgroundColor: '#eeeeee',
+            padding: '10px'
+          }}>
+            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Rand Park High School ( 20­09 - 2013)</p>
+            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Nation Senior Certificate</p>
             <p>
               This is where Casper would fall in love with the art of programming.
             </p>
@@ -58,20 +54,18 @@ class Education extends React.Component
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder'}}>2014</p>
+          <p style={{ fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder' }}>2014</p>
         </div>
         <div className='education-info-right'>
           <div style={{
-              width: '95%',
-              // height: '85px',
-              margin: '-10px 0px 0px 14%',
-              borderRadius: '5px',
-              backgroundColor: '#eeeeee',
-              padding: '10px'
-              // border: '1px solid #343434'
-            }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Univ. of Johannesburg (2014 - present)</p>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>BSc Information Technology</p>
+            width: '95%',
+            margin: '-10px 0px 0px 14%',
+            borderRadius: '5px',
+            backgroundColor: '#eeeeee',
+            padding: '10px'
+          }}>
+            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Univ. of Johannesburg (2014 - present)</p>
+            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>BSc Information Technology</p>
             <p>
               Majoring in Computer Science &amp; Informatics and minoring in Mathematics (Calculus 1 &amp; Descrete 1), Business Management 1 and Information Management 1.
             </p>
@@ -97,7 +91,7 @@ class Education extends React.Component
             marginRight: 'auto'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>Now</p>
+          <p style={{ fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder' }}>Now</p>
         </div>
       </div>
     );

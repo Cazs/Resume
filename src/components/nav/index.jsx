@@ -1,6 +1,5 @@
 import React from 'react';
 import Transition from 'react-motion-ui-pack';
-// import profile from './psybr-tech-sec.png';
 
 const MENU_ANIMATE_TO_Y = 10;
 const MENU_Y_DEFAULT = -220;
@@ -20,16 +19,12 @@ class Nav extends React.Component {
       <Transition
         component={false}
         enter={{
-          // top: 80,
           translateY: this.state.menu_y
-          // height: this.state.menu_y
         }}
         leave={{
-          // top: -70,
           translateY: this.state.menu_y
-          // height: this.state.menu_y
         }}
-        ref={(el)=> this.menu_bar = el}
+        ref={(el) => this.menu_bar = el}
         style={{
           zIndex: '100',
         }}
@@ -79,7 +74,7 @@ class Nav extends React.Component {
           </div>
           <div
             id="nav-form-controls"
-            style={{marginTop: '140px', display: 'flex'}}
+            style={{ marginTop: '140px', display: 'flex' }}
           >
             <button
               id="nav-menu-btn"
@@ -88,16 +83,15 @@ class Nav extends React.Component {
                 marginLeft: '-10px',
                 float: 'left',
               }}
-              onClick={()=>
-              {
-                this.state.menu_y === MENU_ANIMATE_TO_Y ? this.setState({menu_y: MENU_Y_DEFAULT}) : this.setState({menu_y: MENU_ANIMATE_TO_Y});
+              onClick={() => {
+                this.state.menu_y === MENU_ANIMATE_TO_Y ? this.setState({ menu_y: MENU_Y_DEFAULT }) : this.setState({ menu_y: MENU_ANIMATE_TO_Y });
               }}>
               Menu
             </button>
             <div
-              style={{width: '100px', height: '100px', background: 'url(/media/navbar/psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}
+              style={{ width: '100px', height: '100px', background: 'url(/media/navbar/psybr-tech-sec.png)', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}
               id="nav-profile-image"
-              onClick={()=>window.location='/'}
+              onClick={() => window.location = '/'}
             />
             <button
               id="nav-contact-btn"
@@ -106,8 +100,8 @@ class Nav extends React.Component {
                 marginRight: '-10px',
                 float: 'right'
               }}>
-            Contact Me
-          </button>
+              Contact Me
+            </button>
           </div>
         </header>
       </Transition>

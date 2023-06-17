@@ -1,12 +1,11 @@
 import React from 'react';
 
-class Work extends React.Component
-{
-  render()
-  {
+class Work extends React.Component {
+
+  render() {
     return (
       <div className="work-history-container">
-        <h3 style={{textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff'}}>Work Experience</h3>
+        <h3 style={{ textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff' }}>Work Experience</h3>
         <div
           style={{
             width: '50px',
@@ -18,20 +17,18 @@ class Work extends React.Component
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder'}}>2014</p>
+          <p style={{ fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder' }}>2014</p>
         </div>
         <div className="xp-info-left">
           <div
             style={{
               width: '86%',
-              // height: '85px',
               marginTop: '-10px',
               borderRadius: '5px',
               backgroundColor: '#eeeeee',
               padding: '10px'
-              // border: '1px solid #343434'
             }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>Patrish Mobile Nails ( 2014 ­- 2016)</p>
+            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Patrish Mobile Nails ( 2014 ­- 2016)</p>
             <p>
               My role at PMN was to help uplift the company’s online presence by developing and maintaining a modern, responsive and SEO compliant web application.
             </p>
@@ -61,24 +58,22 @@ class Work extends React.Component
             border: '1px solid #fff'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder'}}>2016</p>
+          <p style={{ fontSize: '18px', paddingTop: '10px', color: '#fff', fontWeight: 'bolder' }}>2016</p>
         </div>
         <div className="xp-info-right">
           <div style={{
-              width: '87%',
-              // height: '85px',
-              margin: '-10px 0px 0px 14%',
-              borderRadius: '5px',
-              backgroundColor: '#eeeeee',
-              padding: '10px'
-              // border: '1px solid #343434'
-            }}>
-            <p style={{fontSize: '15px', textAlign: 'left', fontWeight: 'bolder'}}>
+            width: '87%',
+            margin: '-10px 0px 0px 14%',
+            borderRadius: '5px',
+            backgroundColor: '#eeeeee',
+            padding: '10px'
+          }}>
+            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>
               Omega Fire &amp; Security (2016 - present)</p>
             <p>
-              My primary role at Omega was to develop an internal tool to help the company better manage various aspects 
-              of its business operations such as, human resource management, project management, quoting, invoicing, task 
-              management, time &amp; attendance as well as a policy/regulatory document ­management system - essentially a 
+              My primary role at Omega was to develop an internal tool to help the company better manage various aspects
+              of its business operations such as, human resource management, project management, quoting, invoicing, task
+              management, time &amp; attendance as well as a policy/regulatory document ­management system - essentially a
               miniature ERP system.
             </p>
           </div>
@@ -103,7 +98,7 @@ class Work extends React.Component
             marginRight: 'auto'
           }}
         >
-          <p style={{fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder'}}>Now</p>
+          <p style={{ fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder' }}>Now</p>
         </div>
       </div>
     );

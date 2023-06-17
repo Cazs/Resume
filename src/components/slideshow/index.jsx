@@ -5,80 +5,80 @@ class Slideshow extends Component {
   slideShowInterval = null;
 
   constructor(props) {
-      super(props);
-      this.goToNextSlide = this.goToNextSlide.bind(this);
-      this.goToPreviousSlide = this.goToPreviousSlide.bind(this);
-      this.goToGivenSlide = this.goToGivenSlide.bind(this);
+    super(props);
+    this.goToNextSlide = this.goToNextSlide.bind(this);
+    this.goToPreviousSlide = this.goToPreviousSlide.bind(this);
+    this.goToGivenSlide = this.goToGivenSlide.bind(this);
 
-      this.state = {
-        menu_y: 0,
-        index: 0,
-        autoplay: true,
-        translateValue: 0,
-        paused: false,
-      }
+    this.state = {
+      menu_y: 0,
+      index: 0,
+      autoplay: true,
+      translateValue: 0,
+      paused: false,
+    }
   }
 
   setInterval(interval) {
     this.slideShowInterval = window.setInterval(() => {
-        if(!this.state.paused) {
-          this.goToNextSlide();
-        }
-      }, interval);
+      if (!this.state.paused) {
+        this.goToNextSlide();
+      }
+    }, interval);
   }
-  
+
   componentDidMount() {
-    if(this.state.autoplay) {
+    if (this.state.autoplay) {
       this.setInterval(this.slideInterval);
     }
   }
 
   goToNextSlide() {
-    this.setState({index: this.state.index + 1 >= this.props.images.length ? 0 : this.state.index + 1});
+    this.setState({ index: this.state.index + 1 >= this.props.images.length ? 0 : this.state.index + 1 });
   }
 
   goToPreviousSlide() {
     this.setState(
       {
-        // translateValue: this.state.translateValue + mainWindow.getSize()[0],
-        index: this.state.index - 1 < 0 ? this.props.images.length-1 : this.state.index - 1
-      });
+        index: this.state.index - 1 < 0 ? this.props.images.length - 1 : this.state.index - 1
+      }
+    );
   }
-  
+
   goToGivenSlide(position) {
-    if(position >= 0 && position < this.props.images.length) {
+    if (position >= 0 && position < this.props.images.length) {
       window.clearInterval(this.slideShowInterval);
       this.setState(
         {
-          // translateValue: this.state.translateValue + mainWindow.getSize()[0],
           index: position,
           paused: true,
-        });
-      } else {
-        console.error('Invalid slide position!');
-      }
+        }
+      );
+    } else {
+      console.error('Invalid slide position!');
+    }
   }
 
   render() {
     return (
       <div id='slideshow-container'>
-        
+
         {/* Slideshow image */}
         <div
           id='slideshow'
           style={{
-            background: 'url('+ this.props?.images?.[this.state?.index || 0]?.name + ')',
+            background: 'url(' + this.props?.images?.[this.state?.index || 0]?.name + ')',
             transform: this.props?.images?.[this.state?.index || 0]?.transform ? this.props?.images?.[this.state?.index || 0]?.transform : '',
           }}
         >
 
-        {/* Slideshow previous/pause/play/next buttons */}
+          {/* Slideshow previous/pause/play/next buttons */}
           <div
             id='slideshow-left-button'
             className='slideshow-left-right-button'
             onClick={() => {
               window.clearInterval(this.slideShowInterval);
-              this.setState( { paused: true });
+              this.setState({ paused: true });
               this.goToPreviousSlide();
             }}
           />
@@ -90,7 +90,7 @@ class Slideshow extends Component {
               background: !this.state.paused ? 'url(/css/images/slideshow-pause-button.svg)' : 'url(/css/images/slideshow-play-button.svg)',
             }}
             onClick={() => {
-              if(this.state.paused) {
+              if (this.state.paused) {
                 this.setInterval(this.slideInterval);
                 this.setState({
                   ...this.state,
@@ -105,13 +105,13 @@ class Slideshow extends Component {
               }
             }}
           />
-          
+
           <div
             id='slideshow-right-button'
             className='slideshow-left-right-button'
             onClick={() => {
               window.clearInterval(this.slideShowInterval);
-              this.setState( { paused: true });
+              this.setState({ paused: true });
               this.goToNextSlide();
             }}
           />
@@ -120,7 +120,7 @@ class Slideshow extends Component {
           <div
             id='slideshow-nav-container'
           >
-            <div style={{display: 'flex'}}>
+            <div style={{ display: 'flex' }}>
               {
                 this.props.images.map((img_path, index) =>
                 (

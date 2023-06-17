@@ -1,8 +1,7 @@
 import React from 'react'
 import Skill from './Skill'
 
-const programming_skills =
-[
+const programming_skills = [
     {
         id: 'java',
         title: 'Java',
@@ -50,8 +49,7 @@ const programming_skills =
     }
 ];
 
-const devops_skills =
-[
+const devops_skills = [
     {
         id: 'git',
         title: 'Git',
@@ -99,16 +97,7 @@ const devops_skills =
     }
 ];
 
-/*const other_skills =
-[
-    {
-        title: 'Public Speaking',
-        level: 40
-    }
-]*/
-
-const soft_skills =
-[
+const soft_skills = [
     {
         id: 'public-speaking',
         title: 'Public Speaking',
@@ -160,17 +149,17 @@ class Skills extends React.Component {
     render() {
         return (
             <div>
-                <h3 style={{textAlign: 'center', color: '#fff'}}>My current progress in my skill-set</h3>
-                <div className="row" style={{width: '90%', margin: 'auto'}}>
+                <h3 style={{ textAlign: 'center', color: '#fff' }}>My current progress in my skill-set</h3>
+                <div className="row" style={{ width: '90%', margin: 'auto' }}>
                     <div className="col-lg-6">
-                        <Skill id="programming-skills" skills_category='Programming Skills' skills={programming_skills}/>
+                        <Skill id="programming-skills" skills_category='Programming Skills' skills={programming_skills} />
                     </div>
                     <div className="col-lg-6">
-                        <Skill id="devops-skills" skills_category='DevOps Skills' skills={devops_skills}/>
+                        <Skill id="devops-skills" skills_category='DevOps Skills' skills={devops_skills} />
                     </div>
 
                     <div className="col-lg-6">
-                        <Skill id="soft-skills" skills_category='Soft Skills' skills={soft_skills}/>
+                        <Skill id="soft-skills" skills_category='Soft Skills' skills={soft_skills} />
                     </div>
                 </div>
             </div>

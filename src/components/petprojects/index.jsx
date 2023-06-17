@@ -1,36 +1,7 @@
 import React from 'react';
-import Accordion from 'bootstrap';
-// import styled from 'styled-components';
-
-// const GithubLink = styled.a`
-//     width: 30px;
-//     height: 30px;
-//     margin: 0px auto 0px auto;
-//     background: url(http://casperweb.herokuapp.com/github-logo.svg);
-//     backgroundSize: contain
-//     &:hover
-//     {
-//         background-color: #fff;
-//         border-radius: 30px;
-//     }
-// `;
-
-// const LinkedinLink = styled.a`
-//     width: 30px;
-//     height: 30px;
-//     margin: 0px auto 0px auto;
-//     background: url(http://casperweb.herokuapp.com/linkedin-logo.svg);
-//     backgroundSize: contain
-//     &:hover
-//     {
-//         background-color: #fff;
-//         border-radius: 5px;
-//     }
-// `; 
 
 class PetProjects extends React.Component {
     render() {
-        // requestFullscreen();
         return (
             <div style={{
                 width: '100%',
@@ -40,22 +11,9 @@ class PetProjects extends React.Component {
                 borderTop: '1px solid #fff'
             }}>
                 <h2>Pet Projects and Proof of Concepts</h2>
+
                 <p>Unfortunately I don't have enough time to work on all my side projects, but don't worry, something really cool is coming!<span role="img" aria-label="Shhh Emoji">🤫</span></p>
-                {/* <p><strong>Note:</strong> The <strong>data-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p> */}
-                {/* <Accordion defaultActiveKey="0">
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>Accordion Item #1</Accordion.Header>
-                        <Accordion.Body>
-                            First Item
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header>Accordion Item #2</Accordion.Header>
-                        <Accordion.Body>
-                            Second Item
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion> */}
+
                 <div id="accordion">
                     <div className="card">
                         <div className="card-header">
@@ -66,14 +24,14 @@ class PetProjects extends React.Component {
                         <div id="collapse1" className="collapse show" data-parent="#accordion">
                             <div className="card-body">
                                 <img className="pet-project-preview" src="https://image.ibb.co/iHVTMT/ctf600x375_15fps.gif" style={{ marginBottom: '15px' }} width="240" height="180" alt="Capture The Flag game preview" datatype="gif" />
-                                <br/>
+                                <br />
                                 <a href='/media/executables/capture-the-flag.zip'>
                                     <span role="img" aria-label="Floppy Disk Emoji">💾 Download Capture The Flag</span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="card">
                         <div className="card-header">
                             <a className="card-link" data-toggle="collapse" href="#collapse2">
@@ -82,15 +40,15 @@ class PetProjects extends React.Component {
                         </div>
                         <div id="collapse2" className="collapse" data-parent="#accordion">
                             <div className="card-body">
-                                <img className="pet-project-preview"  src="https://i.ibb.co/D9m4t93/level-editor700x438-30fps.gif" style={{ marginBottom: '15px' }} width="240" height="180" alt="Capture The Flag game preview" datatype="gif" />
-                                <br/>
+                                <img className="pet-project-preview" src="https://i.ibb.co/D9m4t93/level-editor700x438-30fps.gif" style={{ marginBottom: '15px' }} width="240" height="180" alt="Capture The Flag game preview" datatype="gif" />
+                                <br />
                                 <a href='/media/executables/platformer-level-editor.zip' download>
                                     <span role="img" aria-label="Floppy Disk Emoji">💾 Download Platformer Level Editor</span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="card">
                         <div className="card-header">
                             <a className="card-link" data-toggle="collapse" href="#collapse3">
@@ -105,7 +63,7 @@ class PetProjects extends React.Component {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="card">
                         <div className="card-header">
                             <a className="collapsed card-link" data-toggle="collapse" href="#collapse4">
@@ -118,7 +76,7 @@ class PetProjects extends React.Component {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="card">
                         <div className="card-header">
                             <a className="collapsed card-link" data-toggle="collapse" href="#collapse5">
@@ -131,7 +89,7 @@ class PetProjects extends React.Component {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="card">
                         <div className="card-header">
                             <a className="collapsed card-link" data-toggle="collapse" href="#collapse6">

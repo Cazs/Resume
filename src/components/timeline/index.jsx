@@ -1,9 +1,7 @@
 import React from 'react';
 
-class Timeline extends React.Component
-{
-  render()
-  {
+class Timeline extends React.Component {
+  render() {
     return (
       <div>
         <div
@@ -47,7 +45,7 @@ class Timeline extends React.Component
             marginRight: 'auto'
           }}
         />
-        
+
         <div
           style={{
             width: '120px',
