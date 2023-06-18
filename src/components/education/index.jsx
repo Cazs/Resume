@@ -6,7 +6,6 @@ class Education extends React.Component {
       <div
         id="education-info-container"
         className="education-info-container">
-        {/* <h3 style={{ textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff' }}>Education</h3> */}
         <div
           style={{
             width: '50px',
@@ -87,18 +86,6 @@ class Education extends React.Component {
             marginRight: 'auto'
           }}
         />
-        {/* <div
-          style={{
-            width: '60px',
-            height: '60px',
-            borderRadius: '60px',
-            backgroundColor: '#ff7400',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-          }}
-        >
-          <p style={{ fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder' }}>Now</p>
-        </div> */}
       </div>
     );
   }

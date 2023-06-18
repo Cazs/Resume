@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
-
 import Nav from './components/nav';
 import Slideshow from './components/slideshow';
 import Introduction from './components/introduction';
 import Skills from './components/skills';
-// import Education from './components/education';
-// import Work from './components/work';
 import CareerTimeline from './components/timeline';
 import Stack from './components/stack';
 import Projects from './components/projects';
 import PetProjects from './components/petprojects';
 import Footer from './components/footer';
-
 import './css/bootstrap.min.css';
 import './css/app.css';
 
@@ -40,8 +36,6 @@ class App extends Component {
         <Introduction key="introduction-component" />
         <Skills key="skills-component" />
         <CareerTimeline key="career-timeline-component" />
-        {/* <Education key="education-component" />
-        <Work key="work-component" /> */}
         <Stack key="stack-component" />
         <Projects key="projects-component" />
         <PetProjects key="pet-projects-component" />

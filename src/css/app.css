@@ -207,7 +207,6 @@ header {
 .skill-bar-container {
   width: 100%;
   margin: 1vh auto 0px 0px;
-  /* padding: 10px; */
   background: rgba(255, 255, 255, .4);
   border-radius: 5px;
 }
@@ -241,8 +240,6 @@ header {
 .education-info-left {
   position: absolute;
   margin-top: -53px;
-  /* left: 22.5%;
-  width: 350px; */
   left: 6vw;
   width: 43vw ;
   height: 100px;
@@ -254,8 +251,6 @@ header {
 .education-info-right {
   position: absolute;
   margin-top: -53px;
-  /* left: 52.5%;
-  width: 350px; */
   left: 50vw;
   width: 41vw;
   height: 100px;
@@ -273,9 +268,7 @@ header {
 .xp-info-left {
   position: absolute;
   margin-top: -53px;
-  /* left: 22.5%; */
   left: 6vw;
-  /* width: 350px; */
   width: 43vw ;
   height: 100px;
   background: url(./images/arrow-right-solid.svg);
@@ -286,9 +279,7 @@ header {
 .xp-info-right {
   position: absolute;
   margin-top: -53px;
-  /* left: 52.5%; */
   left: 50vw;
-  /* width: 350px; */
   width: 41vw;
   height: 100px;
   background: url(./images/arrow-left-solid.svg);

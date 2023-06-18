@@ -7,7 +7,6 @@ class Work extends React.Component {
       <div
         id="work-history-container"
         className="work-history-container">
-        {/* <h3 style={{ textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff' }}>Work Experience</h3> */}
         <div
           style={{
             width: '50px',
@@ -123,7 +122,7 @@ class Work extends React.Component {
               My primary role at Investec is to write and maintain the code/applications that are used by different communities within the business (Private Bankers, Property Bankers, Credit Officers, Legal Risk Officers, the Operations Support team and sometimes the development/engineering team) while also adhering to the code quality standards (TDD, SOLID, DRY, documentation, naming conventions, maintaining our applications and making sure that they're up-to-date and don't have any security vulnerabilities etc.) set by the team and industry.
             </p>
             <p style={{ textAlign: 'left' }}>
-              My secondary role is to mentor/guide new joiners & team members, innovating and keeping up with the ever-changing world of software development (learning new technologies etc.) and assist the Operations Support team with resolving production issues. 
+              My secondary role is to mentor/guide new joiners & team members, innovating and keeping up with the ever-changing world of software development (learning new technologies etc.) and assist the Operations Support team with resolving production issues.
             </p>
           </div>
         </div>

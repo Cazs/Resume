@@ -13,7 +13,7 @@ class PetProjects extends React.Component {
                 <h2 style={{ marginTop: '15px', fontWeight: 'bold' }}>Pet Projects and Proof of Concepts</h2>
                 <p>Unfortunately I don't have enough time to work on all my side projects, but don't worry, something really cool is coming!<span role="img" aria-label="Shhh Emoji">🤫</span></p>
 
-                <div id="accordion" style={{borderTop: '2px solid #000'}}>
+                <div id="accordion" style={{ borderTop: '2px solid #000' }}>
                     <div className="card">
                         <div className="card-header">
                             <a className="card-link" data-toggle="collapse" href="#collapse1">

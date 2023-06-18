@@ -9,7 +9,6 @@ class Skill extends React.Component {
                     {
                         this.props.skills.map((skill, index) => (
                             <div key={skill.id} className='row'>
-                                {/* style={{display: 'flex'}} */}
                                 <div className='col-lg-4'>
                                     <p style={{ margin: '0px 10px 0px 0px', textAlign: 'left', float: 'left' }}>{skill.title}</p>
                                 </div>
