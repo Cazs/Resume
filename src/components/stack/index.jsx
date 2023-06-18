@@ -4,7 +4,7 @@ class Introduction extends React.Component {
     render() {
         return (
             <div style={{ width: '90%', margin: 'auto', backgroundColor: '#fff', padding: '30px', borderRadius: '10px' }}>
-                <h3 style={{ textAlign: 'center', paddingBottom: '30px' }}>Stack History</h3>
+                <h2 style={{ textAlign: 'center', paddingBottom: '30px', fontWeight: 'bold' }}>Stack History</h2>
                 <div className='row'>
                     <div className='col-lg-2'>
                         <img src="/media/stack/macosx.png" alt="Mac OS X" style={{ width: '200px', height: '150px' }} />

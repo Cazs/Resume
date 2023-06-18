@@ -4,8 +4,9 @@ import Nav from './components/nav';
 import Slideshow from './components/slideshow';
 import Introduction from './components/introduction';
 import Skills from './components/skills';
-import Education from './components/education';
-import Work from './components/work';
+// import Education from './components/education';
+// import Work from './components/work';
+import CareerTimeline from './components/timeline';
 import Stack from './components/stack';
 import Projects from './components/projects';
 import PetProjects from './components/petprojects';
@@ -38,8 +39,9 @@ class App extends Component {
         <Slideshow key="slideshow-component" images={images} />
         <Introduction key="introduction-component" />
         <Skills key="skills-component" />
-        <Work key="work-component" />
-        <Education key="education-component" />
+        <CareerTimeline key="career-timeline-component" />
+        {/* <Education key="education-component" />
+        <Work key="work-component" /> */}
         <Stack key="stack-component" />
         <Projects key="projects-component" />
         <PetProjects key="pet-projects-component" />

@@ -3,7 +3,7 @@
 source_dir="./build/*"
 dest_dir="./public/"
 # while true; do
-  inotifywait -r -e modify,move,create,delete $source_dir
+  # inotifywait -r -e modify,move,create,delete $source_dir
   cp -R -v $source_dir $dest_dir
 # done
 

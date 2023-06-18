@@ -3,8 +3,8 @@ import React from 'react';
 class Introduction extends React.Component {
     render() {
         return (
-            <div>
-                <h3 style={{ textAlign: 'center', color: '#fff' }}>Introduction</h3>
+            <div id="app-intro">
+                <h2 style={{ textAlign: 'center', color: '#fff', fontWeight: 'bold' }}>Introduction</h2>
 
                 <p style={{ width: '80%', margin: 'auto', color: '#fff' }}>
                     I'm a 28 year old tech enthusiast who grew up in Randburg, Johannesburg, South Africa.

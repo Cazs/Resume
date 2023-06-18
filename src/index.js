@@ -3,12 +3,9 @@ import ReactDOM from 'react-dom';
 import App from './app';
 import registerServiceWorker from './registerServiceWorker';
 import './css/index.css';
-require('dotenv').config();
+// require('dotenv').config();
 
-if(!window.location.pathname?.includes('resume')) {
-    ReactDOM.render(<App />, document.getElementById('root'));
-    registerServiceWorker();
-} else {
+if(window.location.pathname.includes('resume') || window.location.hostname.includes('resume')) {
     document.body.innerHTML =
     `
     <div style="background-color: #fff !important; width: 100vw; height: 100%;">
@@ -17,4 +14,8 @@ if(!window.location.pathname?.includes('resume')) {
         <embed src="/resume/resume_page_3.svg" style="width: 100vw; height: 100%; display: block; margin-left: auto; margin-right: auto;"/>
     </div>
     `;
+} else {
+    ReactDOM.render(<App />, document.getElementById('root'));
 }
+
+registerServiceWorker();

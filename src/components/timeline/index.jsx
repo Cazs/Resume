@@ -1,64 +1,24 @@
-import React from 'react';
+import React from 'react'
+import Education from '../education'
+import Work from '../work'
 
-class Timeline extends React.Component {
-  render() {
-    return (
-      <div>
-        <div
-          style={{
-            width: '120px',
-            height: '120px',
-            borderRadius: '120px',
-            backgroundColor: 'lime',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-          }}
-        />
-        <div
-          style={{
-            width: '2px',
-            height: '70px',
-            borderRadius: '10px',
-            backgroundColor: 'lime',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-          }}
-        />
-        <div
-          style={{
-            width: '120px',
-            height: '120px',
-            borderRadius: '120px',
-            backgroundColor: 'lime',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-          }}
-        />
-
-        <div
-          style={{
-            width: '2px',
-            height: '70px',
-            borderRadius: '10px',
-            backgroundColor: 'lime',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-          }}
-        />
-
-        <div
-          style={{
-            width: '120px',
-            height: '120px',
-            borderRadius: '120px',
-            backgroundColor: 'lime',
-            marginLeft: 'auto',
-            marginRight: 'auto'
-          }}
-        />
-      </div>
-    );
-  }
+class CareerTimeline extends React.Component {
+    render() {
+        return (
+            <div
+              id="career-timeline-container"
+              style={{ marginTop: '5vh' }}>
+                <h2 style={{ textAlign: 'center', color: '#fff', fontWeight: 'bold' }}>Career Timeline</h2>
+                <Education key="education-component" />
+                <Work key="work-component" />
+                {/* <div className="row" style={{ width: '90%', margin: 'auto' }}>
+                  <div className="col-lg-6">
+                    <Skill id="programming-skills" skills_category='Programming Skills' skills={programming_skills} />
+                  </div>
+                </div> */}
+            </div>
+        );
+    }
 }
 
-export default Timeline;
+export default CareerTimeline;

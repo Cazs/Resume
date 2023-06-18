@@ -13,7 +13,7 @@ class Projects extends React.Component {
                 border: '1px solid #fff'
             }}
             >
-                <h3 style={{ textAlign: 'center', paddingBottom: '30px' }}>Project History</h3>
+                <h2 style={{ textAlign: 'center', paddingBottom: '30px', fontWeight: 'bold' }}>Project History</h2>
                 <div className='row'>
                     <div className='col-lg-6'>
                         <a href="http://www.pioneerdesigns.co.za/">Pioneer Designs</a>

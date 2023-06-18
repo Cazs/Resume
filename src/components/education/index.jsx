@@ -3,8 +3,10 @@ import React from 'react';
 class Education extends React.Component {
   render() {
     return (
-      <div className="education-info-container">
-        <h3 style={{ textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff' }}>Education</h3>
+      <div
+        id="education-info-container"
+        className="education-info-container">
+        {/* <h3 style={{ textAlign: 'center', margin: '50px 0px 50px 0px', color: '#fff' }}>Education</h3> */}
         <div
           style={{
             width: '50px',
@@ -26,14 +28,16 @@ class Education extends React.Component {
             backgroundColor: '#eeeeee',
             padding: '10px'
           }}>
-            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Rand Park High School ( 20­09 - 2013)</p>
+            <p style={{ fontSize: '15px', textAlign: 'center', fontWeight: 'bolder' }}>Rand Park High School ( 20­09 - 2013)</p>
             <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Nation Senior Certificate</p>
-            <p>
+            <p style={{ textAlign: 'left' }}>
               This is where Casper would fall in love with the art of programming.
             </p>
           </div>
         </div>
         <div
+          id='career-timeline-vbar-2009'
+          className='career-timeline-vbar'
           style={{
             width: '2px',
             height: '70px',
@@ -64,24 +68,26 @@ class Education extends React.Component {
             backgroundColor: '#eeeeee',
             padding: '10px'
           }}>
-            <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>Univ. of Johannesburg (2014 - present)</p>
+            <p style={{ fontSize: '15px', textAlign: 'center', fontWeight: 'bolder' }}>Univ. of Johannesburg (2014 - 2018)</p>
             <p style={{ fontSize: '15px', textAlign: 'left', fontWeight: 'bolder' }}>BSc Information Technology</p>
-            <p>
+            <p style={{ textAlign: 'left' }}>
               Majoring in Computer Science &amp; Informatics and minoring in Mathematics (Calculus 1 &amp; Discrete 1), Business Management 1 and Information Management 1.
             </p>
           </div>
         </div>
         <div
+          id='career-timeline-vbar-2014'
+          className='career-timeline-vbar'
           style={{
             width: '2px',
-            height: '70px',
+            height: '18vh',
             borderRadius: '10px',
             backgroundColor: '#ff7400',
             marginLeft: 'auto',
             marginRight: 'auto'
           }}
         />
-        <div
+        {/* <div
           style={{
             width: '60px',
             height: '60px',
@@ -92,7 +98,7 @@ class Education extends React.Component {
           }}
         >
           <p style={{ fontSize: '18px', paddingTop: '18px', color: '#fff', fontWeight: 'bolder' }}>Now</p>
-        </div>
+        </div> */}
       </div>
     );
   }

@@ -33,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "webpack-cli": "^3.3.11"
   }
 }

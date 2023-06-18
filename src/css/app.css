@@ -90,81 +90,6 @@ header {
   font-size: 1.5em;
 }
 
-.app-intro {
-  font-size: large;
-}
-
-.xp-info-left {
-  position: absolute;
-  margin-top: -58px;
-  left: 22.5%;
-  width: 350px;
-  height: 100px;
-  background: url(./images/arrow-right-solid.svg);
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
-}
-
-.xp-info-right {
-  position: absolute;
-  margin-top: -58px;
-  left: 52.5%;
-  width: 350px;
-  height: 100px;
-  background: url(./images/arrow-left-solid.svg);
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-}
-
-.education-info-container {
-  padding-bottom: 15vh;
-}
-
-.education-info-left {
-  position: absolute;
-  margin-top: -58px;
-  left: 22.5%;
-  width: 350px;
-  height: 100px;
-  background: url(./images/arrow-right-solid.svg);
-  background-repeat: no-repeat;
-  background-position: 100% 0%;
-}
-
-.education-info-right {
-  position: absolute;
-  margin-top: -58px;
-  left: 52.5%;
-  width: 350px;
-  height: 100px;
-  background: url(./images/arrow-left-solid.svg);
-  background-repeat: no-repeat;
-  background-position: 0% 0%;
-}
-
-.work-history-container {
-  height: 500px;
-}
-
-.skill-container {
-  width: 100%;
-  margin: 0px auto 0px auto;
-  margin: 10px auto 0px auto;
-  padding: 10px;
-  background: rgba(255, 255, 255, .4);
-  border-radius: 5px;
-}
-
-.skill-bar {
-  display: 'flex';
-  width: 100%;
-  height: 5px;
-  background-color: #3c3c3c;
-  border-radius: 5px;
-  margin-top: 10px;
-  float: 'right';
-}
-
 #slideshow-container {
   height: 82vh;
   margin-top: 10vh;
@@ -266,6 +191,111 @@ header {
   margin-top: -1px !important;
 }
 
+#app-intro {
+  font-size: large;
+  margin-top: 2vh;
+}
+
+#skills-container {
+  margin-top: 2vh;
+}
+
+#skill-bars-container {
+  margin-top: 2vh;
+}
+
+.skill-bar-container {
+  width: 100%;
+  margin: 1vh auto 0px 0px;
+  /* padding: 10px; */
+  background: rgba(255, 255, 255, .4);
+  border-radius: 5px;
+}
+
+.skill-bar-container h3 {
+  padding-top: 2vh;
+}
+
+#programming-skills, #devops-skills, #soft-skills {
+  margin-top: 1vh;
+}
+
+.skill-bar {
+  display: 'flex';
+  width: 100%;
+  height: 5px;
+  background-color: #3c3c3c;
+  border-radius: 5px;
+  margin-top: 10px;
+  float: 'right';
+}
+
+#career-timeline-container {
+  margin-top: 2vh;
+}
+
+#education-info-container{
+  margin-top: 6vh;
+}
+
+.education-info-left {
+  position: absolute;
+  margin-top: -53px;
+  /* left: 22.5%;
+  width: 350px; */
+  left: 6vw;
+  width: 43vw ;
+  height: 100px;
+  background: url(./images/arrow-right-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 94% 0%;
+}
+
+.education-info-right {
+  position: absolute;
+  margin-top: -53px;
+  /* left: 52.5%;
+  width: 350px; */
+  left: 50vw;
+  width: 41vw;
+  height: 100px;
+  background: url(./images/arrow-left-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 6% 0%;
+}
+
+#work-history-container {
+  height: auto;
+  margin-bottom: 100px;
+  margin-top: -15vh;
+}
+
+.xp-info-left {
+  position: absolute;
+  margin-top: -53px;
+  /* left: 22.5%; */
+  left: 6vw;
+  /* width: 350px; */
+  width: 43vw ;
+  height: 100px;
+  background: url(./images/arrow-right-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 94% 0%;
+}
+
+.xp-info-right {
+  position: absolute;
+  margin-top: -53px;
+  /* left: 52.5%; */
+  left: 50vw;
+  /* width: 350px; */
+  width: 41vw;
+  height: 100px;
+  background: url(./images/arrow-left-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 6% 0%;
+}
+
 @keyframes app-logo-spin {
   from {
     transform: rotate(0deg);
@@ -293,13 +323,13 @@ header {
   }
 
   .xp-info-left {
-    width: 150px;
+    width: 150px !important;
     height: auto;
     margin: -53px 0px 0px -75px;
   }
 
   .xp-info-right {
-    width: 155px;
+    width: 155px !important;
     height: auto;
     margin: -53px 0px 0px 15px;
   }
@@ -336,38 +366,76 @@ header {
   #slideshow-container {
     height: 35vh !important;
     margin-top: 4vh !important;
+    margin-top: 5vh;
+  }
+
+  .slideshow-left-right-button {
+    top: 360px;
   }
 
   #slideshow-play-pause-button {
     margin-top: -3%;
+    top: 33%;
   }
 
   #slideshow-nav-container {
     margin-top: 58.5% !important;
   }
 
-  .xp-info-left {
-    width: 300px;
-    height: auto;
-    margin: -53px 0px 0px -120px !important;
+  #career-timeline-container {
+    margin-top: 1vh;
   }
-
-  .xp-info-right {
-    width: 300px;
-    height: auto;
-    margin: -53px 0px 0px 10px !important;
+  
+  #education-info-container{
+    margin-top: 3vh;
   }
 
   .education-info-left {
-    width: 300px;
+    width: 38vw;
     height: auto;
-    margin: -53px 0px 0px -120px !important;
+    margin: -53px 0px 0px 2vw !important;
+    background-position: 100% 0%;
   }
 
   .education-info-right {
-    width: 300px;
+    width: 36vw;
     height: auto;
-    margin: -53px 0px 0px 10px !important;
+    margin: -53px 0px 0px 4vw !important;
+    background-position: 0% 0%;
+  }
+
+  .xp-info-left {
+    width: 38vw;
+    height: auto;
+    margin: -53px 0px 0px 2vw !important;
+    background-position: 100% 0%;
+  }
+
+  .xp-info-right {
+    width: 36vw;
+    height: auto;
+    margin: -53px 0px 0px 4vw !important;
+    background-position: 0% 0%;
+  }
+
+  #career-timeline-vbar-2009 {
+    height: 7vh !important;
+  }
+  
+  #career-timeline-vbar-2014 {
+    height: 12vh !important;
+  }
+  
+  #career-timeline-vbar-2015 {
+    height: 15vh !important;
+  }
+  
+  #career-timeline-vbar-2016 {
+    height: 20vh !important;
+  }
+  
+  #career-timeline-vbar-2018 {
+    height: 37vh !important;
   }
 
   .pet-project-video {
@@ -378,18 +446,6 @@ header {
   .pet-project-preview {
     width: 300px !important;
     height: 250px !important;
-  }
-
-  #slideshow-container {
-    margin-top: 5vh;
-  }
-
-  .slideshow-left-right-button {
-    top: 360px;
-  }
-
-  #slideshow-play-pause-button {
-    top: 33%;
   }
 }
 

@@ -148,18 +148,21 @@ const soft_skills = [
 class Skills extends React.Component {
     render() {
         return (
-            <div>
-                <h3 style={{ textAlign: 'center', color: '#fff' }}>My current progress in my skill-set</h3>
-                <div className="row" style={{ width: '90%', margin: 'auto' }}>
-                    <div className="col-lg-6">
-                        <Skill id="programming-skills" skills_category='Programming Skills' skills={programming_skills} />
+            <div id="skills-container">
+                <h2 style={{ textAlign: 'center', color: '#fff', fontWeight: 'bold' }}>My current progress in my skill-set</h2>
+                <div
+                    id="skill-bars-container"
+                    className="row"
+                    style={{ width: '90%', margin: 'auto' }}>
+                    <div id="programming-skills" className="col-lg-6">
+                        <Skill skills_category='Programming Skills' skills={programming_skills} />
                     </div>
-                    <div className="col-lg-6">
-                        <Skill id="devops-skills" skills_category='DevOps Skills' skills={devops_skills} />
+                    <div id="devops-skills" className="col-lg-6">
+                        <Skill skills_category='DevOps Skills' skills={devops_skills} />
                     </div>
 
-                    <div className="col-lg-6">
-                        <Skill id="soft-skills" skills_category='Soft Skills' skills={soft_skills} />
+                    <div id="soft-skills" className="col-lg-6">
+                        <Skill skills_category='Soft Skills' skills={soft_skills} />
                     </div>
                 </div>
             </div>

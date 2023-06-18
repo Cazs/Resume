@@ -67,8 +67,8 @@ class Slideshow extends Component {
         <div
           id='slideshow'
           style={{
-            background: 'url(' + this.props?.images?.[this.state?.index || 0]?.name + ')',
-            transform: this.props?.images?.[this.state?.index || 0]?.transform ? this.props?.images?.[this.state?.index || 0]?.transform : '',
+            background: 'url(' + this.props.images[this.state.index || 0].name + ')',
+            transform: this.props.images[this.state.index || 0].transform ? this.props.images[this.state.index || 0].transform : '',
           }}
         >
 

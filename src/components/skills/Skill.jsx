@@ -3,14 +3,11 @@ import React from 'react';
 class Skill extends React.Component {
     render() {
         return (
-            <div
-                className='skill-container'
-            >
-                <p style={{ textAlign: 'center', fontWeight: 'bolder' }}>{this.props.skills_category}</p>
+            <div className='skill-bar-container'>
+                <h3 style={{ textAlign: 'center', fontWeight: 'bold' }}>{this.props.skills_category}</h3>
                 <div style={{ display: 'block' }}>
                     {
-                        this.props.skills.map((skill, index) =>
-                        (
+                        this.props.skills.map((skill, index) => (
                             <div key={skill.id} className='row'>
                                 {/* style={{display: 'flex'}} */}
                                 <div className='col-lg-4'>
